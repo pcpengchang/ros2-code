@@ -1,0 +1,1 @@
+/home/pengchang/ws/src/interfaces/msg/SpinInfo.msg

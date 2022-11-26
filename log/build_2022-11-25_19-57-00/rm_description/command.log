@@ -1,0 +1,6 @@
+Invoking command in '/home/pengchang/ws/build/rm_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/description -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/rm_description
+Invoked command in '/home/pengchang/ws/build/rm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/description -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/rm_description
+Invoking command in '/home/pengchang/ws/build/rm_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/rm_description -- -j8 -l8
+Invoked command in '/home/pengchang/ws/build/rm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/rm_description -- -j8 -l8
+Invoking command in '/home/pengchang/ws/build/rm_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/rm_description
+Invoked command in '/home/pengchang/ws/build/rm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/rm_description

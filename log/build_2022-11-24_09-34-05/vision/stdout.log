@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target vision[0m
+[ 28%] Built target camera_node
+[ 57%] Built target detector_node
+[ 71%] [32mBuilding CXX object CMakeFiles/vision.dir/src/detector_node.cpp.o[0m

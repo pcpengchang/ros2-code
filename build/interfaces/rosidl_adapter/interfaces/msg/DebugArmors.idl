@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/DebugArmors.msg
+// generated code does not contain a copyright notice
+
+#include "interfaces/msg/DebugArmor.idl"
+
+module interfaces {
+  module msg {
+    struct DebugArmors {
+      sequence<interfaces::msg::DebugArmor> data;
+    };
+  };
+};

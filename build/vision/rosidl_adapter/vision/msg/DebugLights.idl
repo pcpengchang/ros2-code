@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vision/msg/DebugLights.msg
+// generated code does not contain a copyright notice
+
+#include "vision/msg/DebugLight.idl"
+
+module vision {
+  module msg {
+    struct DebugLights {
+      sequence<vision::msg::DebugLight> data;
+    };
+  };
+};

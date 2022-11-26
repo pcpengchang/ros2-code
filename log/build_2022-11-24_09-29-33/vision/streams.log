@@ -1,0 +1,40 @@
+[0.024s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[0.100s] [35m[1mScanning dependencies of target vision[0m
+[0.111s] [ 28%] Built target detector_node
+[0.115s] [ 57%] Built target camera_node
+[0.158s] [ 71%] [32mBuilding CXX object CMakeFiles/vision.dir/src/detector_node.cpp.o[0m
+[12.506s] [ 85%] [32m[1mLinking CXX shared library libvision.so[0m
+[13.169s] [100%] Built target vision
+[13.186s] Invoked command in '/home/pengchang/ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[13.244s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/vision
+[13.258s] -- Install configuration: ""
+[13.259s] -- Execute custom install script
+[13.260s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/vision/camera_node
+[13.260s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/vision/detector_node
+[13.261s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/library_path.sh
+[13.262s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/library_path.dsv
+[13.263s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/libvision.so
+[13.263s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/config/camera_info.yaml
+[13.264s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/config/camera_params.yaml
+[13.264s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/config/default.yaml
+[13.265s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/launch/launch.py
+[13.265s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[13.265s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[13.266s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.sh
+[13.267s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.dsv
+[13.267s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/path.sh
+[13.267s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/path.dsv
+[13.267s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.bash
+[13.267s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.sh
+[13.267s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.zsh
+[13.267s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.dsv
+[13.268s] -- Symlinking: /home/pengchang/ws/install/vision/share/vision/package.dsv
+[13.282s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/packages/vision
+[13.282s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/rclcpp_components/vision
+[13.282s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.283s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.283s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_libraries-extras.cmake
+[13.284s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig.cmake
+[13.284s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig-version.cmake
+[13.285s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/package.xml
+[13.287s] Invoked command in '/home/pengchang/ws/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/vision

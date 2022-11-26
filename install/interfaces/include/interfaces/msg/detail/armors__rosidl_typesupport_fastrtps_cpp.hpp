@@ -1,0 +1,1 @@
+/home/pengchang/ws/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp

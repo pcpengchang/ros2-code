@@ -1,0 +1,4 @@
+Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+Invoked command in '/home/pengchang/ws/build/vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/vision
+Invoked command in '/home/pengchang/ws/build/vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/vision

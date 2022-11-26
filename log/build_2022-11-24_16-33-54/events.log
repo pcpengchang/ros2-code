@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000779] (-) JobUnselected: {'identifier': 'vision'}
+[0.000856] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000910] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.023183] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.024150] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.026047] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pengchang/ws/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/pengchang/ws/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1192'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/vision/lib:/home/pengchang/ws/install/interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '964'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2290'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44143'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1260,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1260'), ('INVOCATION_ID', '8e7508aa262d41cb9256e5ef86009c43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/interfaces:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/interfaces:/opt/ros/galactic')]), 'shell': False}
+[0.099776] (-) TimerEvent: {}
+[0.115771] (interfaces) StdoutLine: {'line': b'[  1%] Built target interfaces__cpp\n'}
+[0.119692] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.145332] (interfaces) StdoutLine: {'line': b'[ 24%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.147251] (interfaces) StdoutLine: {'line': b'[ 35%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.148801] (interfaces) StdoutLine: {'line': b'[ 47%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.153273] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.161293] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.187878] (interfaces) StdoutLine: {'line': b'[ 81%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.199899] (-) TimerEvent: {}
+[0.213030] (interfaces) StdoutLine: {'line': b'[ 81%] Built target interfaces\n'}
+[0.245229] (interfaces) StdoutLine: {'line': b'[ 82%] Built target interfaces__py\n'}
+[0.298572] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__python\n'}
+[0.299996] (-) TimerEvent: {}
+[0.330069] (interfaces) StdoutLine: {'line': b'[ 95%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.332659] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.332789] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[0.348070] (interfaces) CommandEnded: {'returncode': 0}
+[0.400220] (-) TimerEvent: {}
+[0.500828] (-) TimerEvent: {}
+[0.597100] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[0.601026] (-) TimerEvent: {}
+[0.618225] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pengchang/ws/build/interfaces'], 'cwd': '/home/pengchang/ws/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1192'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/vision/lib:/home/pengchang/ws/install/interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '964'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2290'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44143'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1260,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1260'), ('INVOCATION_ID', '8e7508aa262d41cb9256e5ef86009c43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/interfaces:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/interfaces:/opt/ros/galactic')]), 'shell': False}
+[0.634099] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.634814] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[0.635035] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces\n'}
+[0.635219] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg\n'}
+[0.635393] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armors.h\n'}
+[0.635558] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/spin_info.h\n'}
+[0.635684] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_light.h\n'}
+[0.635809] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armors.h\n'}
+[0.635933] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.636058] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armor.h\n'}
+[0.636185] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_lights.h\n'}
+[0.636311] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/target.h\n'}
+[0.636489] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail\n'}
+[0.636634] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__functions.h\n'}
+[0.636756] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__functions.c\n'}
+[0.636878] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__type_support.h\n'}
+[0.636997] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__functions.c\n'}
+[0.637116] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__functions.c\n'}
+[0.637233] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__type_support.h\n'}
+[0.637355] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__functions.h\n'}
+[0.637472] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__functions.h\n'}
+[0.637590] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__type_support.h\n'}
+[0.637708] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__struct.h\n'}
+[0.637907] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__struct.h\n'}
+[0.638028] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__functions.c\n'}
+[0.638149] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__type_support.h\n'}
+[0.638627] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__functions.h\n'}
+[0.638758] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__functions.h\n'}
+[0.638887] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__type_support.h\n'}
+[0.639225] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__struct.h\n'}
+[0.639350] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__type_support.h\n'}
+[0.639478] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__struct.h\n'}
+[0.639604] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__functions.c\n'}
+[0.639730] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__struct.h\n'}
+[0.639855] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__functions.c\n'}
+[0.640265] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__functions.h\n'}
+[0.640409] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__functions.c\n'}
+[0.640537] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__functions.h\n'}
+[0.640656] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__struct.h\n'}
+[0.640777] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__type_support.h\n'}
+[0.640895] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__type_support.h\n'}
+[0.641014] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__functions.c\n'}
+[0.641132] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__functions.h\n'}
+[0.641252] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__struct.h\n'}
+[0.641372] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__struct.h\n'}
+[0.641491] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armor.h\n'}
+[0.641612] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[0.641731] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[0.641851] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[0.641983] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces\n'}
+[0.642103] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg\n'}
+[0.642222] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail\n'}
+[0.642342] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h\n'}
+[0.642464] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h\n'}
+[0.642585] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h\n'}
+[0.642706] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.642833] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h\n'}
+[0.642953] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h\n'}
+[0.643074] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[0.643196] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h\n'}
+[0.643315] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.643454] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.643574] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces\n'}
+[0.643696] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg\n'}
+[0.643817] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail\n'}
+[0.643936] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.644056] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.644171] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.644285] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.644448] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/dds_fastrtps\n'}
+[0.644573] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.644693] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.644835] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.644958] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.645087] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.645207] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.645329] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces\n'}
+[0.645449] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg\n'}
+[0.645567] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.645641] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail\n'}
+[0.645690] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__type_support.c\n'}
+[0.645748] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__type_support.c\n'}
+[0.645798] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__type_support.c\n'}
+[0.645849] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__type_support.c\n'}
+[0.645901] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h\n'}
+[0.645952] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[0.646004] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__type_support.c\n'}
+[0.646053] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h\n'}
+[0.646104] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_introspection_c.h\n'}
+[0.646155] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h\n'}
+[0.646207] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__type_support.c\n'}
+[0.646257] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h\n'}
+[0.646307] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__type_support.c\n'}
+[0.646357] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h\n'}
+[0.646416] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h\n'}
+[0.646467] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__type_support.c\n'}
+[0.646517] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.646568] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[0.646627] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces\n'}
+[0.646691] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg\n'}
+[0.646740] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armors.hpp\n'}
+[0.646788] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armor.hpp\n'}
+[0.646836] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/spin_info.hpp\n'}
+[0.646885] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/target.hpp\n'}
+[0.646934] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armor.hpp\n'}
+[0.646984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail\n'}
+[0.647032] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__traits.hpp\n'}
+[0.647081] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__traits.hpp\n'}
+[0.647128] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__traits.hpp\n'}
+[0.647177] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__builder.hpp\n'}
+[0.647237] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__builder.hpp\n'}
+[0.647287] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__struct.hpp\n'}
+[0.647336] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__traits.hpp\n'}
+[0.647398] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__struct.hpp\n'}
+[0.647447] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__struct.hpp\n'}
+[0.647495] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__struct.hpp\n'}
+[0.647542] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__struct.hpp\n'}
+[0.647594] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__traits.hpp\n'}
+[0.647642] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__builder.hpp\n'}
+[0.647689] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__traits.hpp\n'}
+[0.647746] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__traits.hpp\n'}
+[0.647795] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__struct.hpp\n'}
+[0.647843] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__builder.hpp\n'}
+[0.647891] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__builder.hpp\n'}
+[0.647939] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__builder.hpp\n'}
+[0.647985] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__struct.hpp\n'}
+[0.648039] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__traits.hpp\n'}
+[0.648086] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__builder.hpp\n'}
+[0.648134] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__struct.hpp\n'}
+[0.648182] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__builder.hpp\n'}
+[0.648228] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armors.hpp\n'}
+[0.648282] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_light.hpp\n'}
+[0.648331] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_lights.hpp\n'}
+[0.648396] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces\n'}
+[0.648446] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg\n'}
+[0.648494] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail\n'}
+[0.648541] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__type_support.cpp\n'}
+[0.648588] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__type_support.cpp\n'}
+[0.648639] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__type_support.cpp\n'}
+[0.648686] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.648736] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.648784] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.648832] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.648880] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.648929] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__type_support.cpp\n'}
+[0.648976] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__type_support.cpp\n'}
+[0.649024] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.649072] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__type_support.cpp\n'}
+[0.649128] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.649176] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__type_support.cpp\n'}
+[0.649224] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__type_support.cpp\n'}
+[0.649276] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.649324] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.649372] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[0.649420] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[0.649468] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[0.649515] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[0.671260] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg\n'}
+[0.671690] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_light_s.c\n'}
+[0.671873] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_spin_info_s.c\n'}
+[0.671996] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armors.py\n'}
+[0.672117] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armor_s.c\n'}
+[0.672239] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armors.py\n'}
+[0.672383] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armor.py\n'}
+[0.672533] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armors_s.c\n'}
+[0.672657] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armor_s.c\n'}
+[0.672849] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_lights.py\n'}
+[0.672976] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_spin_info.py\n'}
+[0.673099] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armors_s.c\n'}
+[0.673222] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_target.py\n'}
+[0.673349] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_light.py\n'}
+[0.673474] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_target_s.c\n'}
+[0.673599] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_lights_s.c\n'}
+[0.673721] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py\n'}
+[0.673844] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armor.py\n'}
+[0.673967] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.674099] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.674400] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.674530] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__python.so\n'}
+[0.674654] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armor.idl\n'}
+[0.674778] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armors.idl\n'}
+[0.674904] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Target.idl\n'}
+[0.675028] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLight.idl\n'}
+[0.675152] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLights.idl\n'}
+[0.675279] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmor.idl\n'}
+[0.675406] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmors.idl\n'}
+[0.675751] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/SpinInfo.idl\n'}
+[0.675881] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armor.msg\n'}
+[0.676001] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armors.msg\n'}
+[0.676127] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Target.msg\n'}
+[0.676254] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLight.msg\n'}
+[0.676406] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLights.msg\n'}
+[0.676533] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmor.msg\n'}
+[0.676659] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmors.msg\n'}
+[0.676788] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/msg/SpinInfo.msg\n'}
+[0.676917] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[0.677040] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[0.677162] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[0.677283] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[0.677405] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[0.677524] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[0.677642] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[0.677839] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[0.677968] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[0.678088] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[0.678528] (interfaces) StdoutLine: {'line': b'-- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/package.dsv\n'}
+[0.678648] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[0.678744] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[0.678880] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.678952] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.679533] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.680535] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.680715] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.680835] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.680945] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.681054] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.682945] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.683121] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.683263] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.683453] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.683613] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.683845] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.684127] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.684182] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.684265] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.684326] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[0.684393] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[0.684444] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/package.xml\n'}
+[0.684503] (interfaces) CommandEnded: {'returncode': 0}
+[0.701127] (-) TimerEvent: {}
+[0.801513] (-) TimerEvent: {}
+[0.902038] (-) TimerEvent: {}
+[0.941548] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[0.942126] (-) EventReactorShutdown: {}

@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.001319] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict()}
+[0.001445] (vision) JobStarted: {'identifier': 'vision'}
+[0.024124] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.026577] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.029428] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pengchang/ws/build/vision', '--', '-j8', '-l8'], 'cwd': '/home/pengchang/ws/build/vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1162'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '933'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1808'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:43086'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1231,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1231'), ('INVOCATION_ID', '122913401b6247ddbf6be1a52c2fb968'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/vision'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/vision:/opt/ros/galactic')]), 'shell': False}
+[0.099759] (-) TimerEvent: {}
+[0.100671] (vision) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vision\x1b[0m\n'}
+[0.116166] (vision) StdoutLine: {'line': b'[ 28%] Built target detector_node\n'}
+[0.119934] (vision) StdoutLine: {'line': b'[ 57%] Built target camera_node\n'}
+[0.166786] (vision) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/detector_node.cpp.o\x1b[0m\n'}
+[0.199892] (-) TimerEvent: {}
+[0.300339] (-) TimerEvent: {}
+[0.400883] (-) TimerEvent: {}
+[0.501310] (-) TimerEvent: {}
+[0.601657] (-) TimerEvent: {}
+[0.702341] (-) TimerEvent: {}
+[0.802778] (-) TimerEvent: {}
+[0.903387] (-) TimerEvent: {}
+[1.003849] (-) TimerEvent: {}
+[1.104223] (-) TimerEvent: {}
+[1.204889] (-) TimerEvent: {}
+[1.305676] (-) TimerEvent: {}
+[1.406124] (-) TimerEvent: {}
+[1.506537] (-) TimerEvent: {}
+[1.606967] (-) TimerEvent: {}
+[1.707466] (-) TimerEvent: {}
+[1.807963] (-) TimerEvent: {}
+[1.908756] (-) TimerEvent: {}
+[2.009277] (-) TimerEvent: {}
+[2.109712] (-) TimerEvent: {}
+[2.210258] (-) TimerEvent: {}
+[2.310694] (-) TimerEvent: {}
+[2.411303] (-) TimerEvent: {}
+[2.511806] (-) TimerEvent: {}
+[2.612323] (-) TimerEvent: {}
+[2.712743] (-) TimerEvent: {}
+[2.813465] (-) TimerEvent: {}
+[2.913884] (-) TimerEvent: {}
+[3.014339] (-) TimerEvent: {}
+[3.114760] (-) TimerEvent: {}
+[3.215201] (-) TimerEvent: {}
+[3.315615] (-) TimerEvent: {}
+[3.416040] (-) TimerEvent: {}
+[3.516464] (-) TimerEvent: {}
+[3.616902] (-) TimerEvent: {}
+[3.717321] (-) TimerEvent: {}
+[3.817790] (-) TimerEvent: {}
+[3.918203] (-) TimerEvent: {}
+[4.019179] (-) TimerEvent: {}
+[4.119603] (-) TimerEvent: {}
+[4.220037] (-) TimerEvent: {}
+[4.320466] (-) TimerEvent: {}
+[4.420993] (-) TimerEvent: {}
+[4.521429] (-) TimerEvent: {}
+[4.621850] (-) TimerEvent: {}
+[4.722287] (-) TimerEvent: {}
+[4.822717] (-) TimerEvent: {}
+[4.923167] (-) TimerEvent: {}
+[5.023594] (-) TimerEvent: {}
+[5.124059] (-) TimerEvent: {}
+[5.224522] (-) TimerEvent: {}
+[5.325080] (-) TimerEvent: {}
+[5.425684] (-) TimerEvent: {}
+[5.526235] (-) TimerEvent: {}
+[5.626699] (-) TimerEvent: {}
+[5.727247] (-) TimerEvent: {}
+[5.827744] (-) TimerEvent: {}
+[5.928333] (-) TimerEvent: {}
+[6.028775] (-) TimerEvent: {}
+[6.129272] (-) TimerEvent: {}
+[6.229682] (-) TimerEvent: {}
+[6.330113] (-) TimerEvent: {}
+[6.430525] (-) TimerEvent: {}
+[6.530943] (-) TimerEvent: {}
+[6.631387] (-) TimerEvent: {}
+[6.731904] (-) TimerEvent: {}
+[6.832331] (-) TimerEvent: {}
+[6.933014] (-) TimerEvent: {}
+[7.033530] (-) TimerEvent: {}
+[7.133971] (-) TimerEvent: {}
+[7.234386] (-) TimerEvent: {}
+[7.334803] (-) TimerEvent: {}
+[7.435244] (-) TimerEvent: {}
+[7.535650] (-) TimerEvent: {}
+[7.636031] (-) TimerEvent: {}
+[7.736444] (-) TimerEvent: {}
+[7.836882] (-) TimerEvent: {}
+[7.937573] (-) TimerEvent: {}
+[8.038259] (-) TimerEvent: {}
+[8.138843] (-) TimerEvent: {}
+[8.239307] (-) TimerEvent: {}
+[8.339684] (-) TimerEvent: {}
+[8.440066] (-) TimerEvent: {}
+[8.540488] (-) TimerEvent: {}
+[8.640954] (-) TimerEvent: {}
+[8.741571] (-) TimerEvent: {}
+[8.842147] (-) TimerEvent: {}
+[8.942592] (-) TimerEvent: {}
+[9.043228] (-) TimerEvent: {}
+[9.143737] (-) TimerEvent: {}
+[9.244209] (-) TimerEvent: {}
+[9.344640] (-) TimerEvent: {}
+[9.445075] (-) TimerEvent: {}
+[9.545507] (-) TimerEvent: {}
+[9.645915] (-) TimerEvent: {}
+[9.746328] (-) TimerEvent: {}
+[9.846770] (-) TimerEvent: {}
+[9.947193] (-) TimerEvent: {}
+[10.047610] (-) TimerEvent: {}
+[10.148026] (-) TimerEvent: {}
+[10.248455] (-) TimerEvent: {}
+[10.348914] (-) TimerEvent: {}
+[10.449353] (-) TimerEvent: {}
+[10.549791] (-) TimerEvent: {}
+[10.650292] (-) TimerEvent: {}
+[10.750958] (-) TimerEvent: {}
+[10.851403] (-) TimerEvent: {}
+[10.951828] (-) TimerEvent: {}
+[11.052287] (-) TimerEvent: {}
+[11.152710] (-) TimerEvent: {}
+[11.253112] (-) TimerEvent: {}
+[11.353517] (-) TimerEvent: {}
+[11.453927] (-) TimerEvent: {}
+[11.554371] (-) TimerEvent: {}
+[11.654790] (-) TimerEvent: {}
+[11.755372] (-) TimerEvent: {}
+[11.855854] (-) TimerEvent: {}
+[11.909704] (vision) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libvision.so\x1b[0m\n'}
+[11.956003] (-) TimerEvent: {}
+[12.056509] (-) TimerEvent: {}
+[12.157009] (-) TimerEvent: {}
+[12.257489] (-) TimerEvent: {}
+[12.357955] (-) TimerEvent: {}
+[12.458526] (-) TimerEvent: {}
+[12.558937] (-) TimerEvent: {}
+[12.606789] (vision) StdoutLine: {'line': b'[100%] Built target vision\n'}
+[12.625519] (vision) CommandEnded: {'returncode': 0}
+[12.659214] (-) TimerEvent: {}
+[12.675934] (vision) JobProgress: {'identifier': 'vision', 'progress': 'install'}
+[12.689735] (vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pengchang/ws/build/vision'], 'cwd': '/home/pengchang/ws/build/vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1162'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '933'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1808'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:43086'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1231,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1231'), ('INVOCATION_ID', '122913401b6247ddbf6be1a52c2fb968'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/vision'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/vision:/opt/ros/galactic')]), 'shell': False}
+[12.704510] (vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.704888] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/lib/vision/camera_node\n'}
+[12.705064] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/lib/vision/detector_node\n'}
+[12.705324] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/include\n'}
+[12.705472] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/include/vision\n'}
+[12.705616] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/environment/library_path.sh\n'}
+[12.705760] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/environment/library_path.dsv\n'}
+[12.705905] (vision) StdoutLine: {'line': b'-- Installing: /home/pengchang/ws/install/vision/lib/libvision.so\n'}
+[12.713117] (vision) StdoutLine: {'line': b'-- Set runtime path of "/home/pengchang/ws/install/vision/lib/libvision.so" to ""\n'}
+[12.713501] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/config\n'}
+[12.713648] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/config/camera_info.yaml\n'}
+[12.713756] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/config/camera_params.yaml\n'}
+[12.713864] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/config/default.yaml\n'}
+[12.714130] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/launch\n'}
+[12.714249] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/launch/launch.py\n'}
+[12.714354] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision\n'}
+[12.714462] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision\n'}
+[12.714565] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.sh\n'}
+[12.714668] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.dsv\n'}
+[12.714773] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/environment/path.sh\n'}
+[12.714878] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/environment/path.dsv\n'}
+[12.714998] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/local_setup.bash\n'}
+[12.715356] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/local_setup.sh\n'}
+[12.715466] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/local_setup.zsh\n'}
+[12.715572] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/local_setup.dsv\n'}
+[12.715676] (vision) StdoutLine: {'line': b'-- Installing: /home/pengchang/ws/install/vision/share/vision/package.dsv\n'}
+[12.715778] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/ament_index/resource_index/packages/vision\n'}
+[12.715886] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/ament_index/resource_index/rclcpp_components/vision\n'}
+[12.716287] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.717074] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.717193] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.717299] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig.cmake\n'}
+[12.717402] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig-version.cmake\n'}
+[12.717507] (vision) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/vision/share/vision/package.xml\n'}
+[12.718290] (vision) CommandEnded: {'returncode': 0}
+[12.759347] (-) TimerEvent: {}
+[12.796794] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[12.797663] (-) EventReactorShutdown: {}

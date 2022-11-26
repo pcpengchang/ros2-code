@@ -1,0 +1,10 @@
+CMake Error at /opt/ros/galactic/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake:66 (add_library):
+  add_library cannot create target "vision" because another target with the
+  same name already exists.  The existing target is a custom target created
+  in source directory "/home/pengchang/ws/src/vision".  See documentation for
+  policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:70 (ament_auto_add_library)
+
+
+make: *** [Makefile:414：cmake_check_build_system] 错误 1

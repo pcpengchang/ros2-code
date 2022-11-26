@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/SpinInfo.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module interfaces {
+  module msg {
+    struct SpinInfo {
+      std_msgs::msg::Header header;
+
+      boolean target_spinning;
+
+      boolean suggest_fire;
+
+      int64 jump_count;
+
+      double yaw_diff;
+
+      double jump_period;
+
+      double time_after_jumping;
+    };
+  };
+};

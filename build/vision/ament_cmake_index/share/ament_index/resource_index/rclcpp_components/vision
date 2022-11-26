@@ -1,0 +1,3 @@
+CameraNode;lib/libvision.so
+DetectorNode;lib/libvision.so
+ProcessorNode;lib/libvision.so

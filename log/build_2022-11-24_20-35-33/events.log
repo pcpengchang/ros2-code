@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000763] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000848] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict([('interfaces', '/home/pengchang/ws/install/interfaces')])}
+[0.001729] (vision) JobStarted: {'identifier': 'vision'}
+[0.018925] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.020420] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.023169] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pengchang/ws/build/vision', '--', '-j8', '-l8'], 'cwd': '/home/pengchang/ws/build/vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1192'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '964'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2290'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44143'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1260,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1260'), ('INVOCATION_ID', '8e7508aa262d41cb9256e5ef86009c43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/interfaces:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/vision'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/opt/ros/galactic')]), 'shell': False}
+[0.099596] (-) TimerEvent: {}
+[0.102942] (vision) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vision\x1b[0m\n'}
+[0.117122] (vision) StdoutLine: {'line': b'[ 20%] Built target detector_node\n'}
+[0.119370] (vision) StdoutLine: {'line': b'[ 50%] Built target camera_node\n'}
+[0.119639] (vision) StdoutLine: {'line': b'[ 60%] Built target processor_node\n'}
+[0.164253] (vision) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/processor_node.cpp.o\x1b[0m\n'}
+[0.199719] (-) TimerEvent: {}
+[0.300204] (-) TimerEvent: {}
+[0.400591] (-) TimerEvent: {}
+[0.500961] (-) TimerEvent: {}
+[0.601368] (-) TimerEvent: {}
+[0.701849] (-) TimerEvent: {}
+[0.802188] (-) TimerEvent: {}
+[0.902565] (-) TimerEvent: {}
+[1.002884] (-) TimerEvent: {}
+[1.103247] (-) TimerEvent: {}
+[1.203735] (-) TimerEvent: {}
+[1.304082] (-) TimerEvent: {}
+[1.404509] (-) TimerEvent: {}
+[1.504891] (-) TimerEvent: {}
+[1.605276] (-) TimerEvent: {}
+[1.705626] (-) TimerEvent: {}
+[1.805996] (-) TimerEvent: {}
+[1.906595] (-) TimerEvent: {}
+[2.006953] (-) TimerEvent: {}
+[2.107349] (-) TimerEvent: {}
+[2.207709] (-) TimerEvent: {}
+[2.308064] (-) TimerEvent: {}
+[2.408400] (-) TimerEvent: {}
+[2.508740] (-) TimerEvent: {}
+[2.609094] (-) TimerEvent: {}
+[2.709462] (-) TimerEvent: {}
+[2.809832] (-) TimerEvent: {}
+[2.910188] (-) TimerEvent: {}
+[3.010797] (-) TimerEvent: {}
+[3.111146] (-) TimerEvent: {}
+[3.211830] (-) TimerEvent: {}
+[3.312187] (-) TimerEvent: {}
+[3.412595] (-) TimerEvent: {}
+[3.512993] (-) TimerEvent: {}
+[3.613863] (-) TimerEvent: {}
+[3.714228] (-) TimerEvent: {}
+[3.814582] (-) TimerEvent: {}
+[3.914970] (-) TimerEvent: {}
+[4.015383] (-) TimerEvent: {}
+[4.115789] (-) TimerEvent: {}
+[4.216180] (-) TimerEvent: {}
+[4.316617] (-) TimerEvent: {}
+[4.417001] (-) TimerEvent: {}
+[4.517375] (-) TimerEvent: {}
+[4.617982] (-) TimerEvent: {}
+[4.718347] (-) TimerEvent: {}
+[4.744488] (vision) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33,\n'}
+[4.744809] (vision) StderrLine: {'line': b'                 from /usr/include/c++/9/bits/allocator.h:46,\n'}
+[4.744947] (vision) StderrLine: {'line': b'                 from /usr/include/c++/9/memory:63,\n'}
+[4.745073] (vision) StderrLine: {'line': b'                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:154,\n'}
+[4.745198] (vision) StderrLine: {'line': b'                 from /opt/ros/galactic/include/message_filters/subscriber.h:38,\n'}
+[4.745313] (vision) StderrLine: {'line': b'                 from /home/pengchang/ws/src/vision/src/processor_node.cpp:2:\n'}
+[4.745434] (vision) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98void __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = tf2_ros::Buffer; _Args = {}; _Tp = tf2_ros::Buffer]\xe2\x80\x99:\n'}
+[4.745561] (vision) StderrLine: {'line': b'/usr/include/c++/9/bits/alloc_traits.h:483:4:   required from \xe2\x80\x98static void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = tf2_ros::Buffer; _Args = {}; _Tp = tf2_ros::Buffer; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<tf2_ros::Buffer>]\xe2\x80\x99\n'}
+[4.745686] (vision) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h:548:39:   required from \xe2\x80\x98std::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\xe2\x80\x99\n'}
+[4.745808] (vision) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h:679:16:   required from \xe2\x80\x98std::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\xe2\x80\x99\n'}
+[4.745928] (vision) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:   required from \xe2\x80\x98std::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {}; _Tp = tf2_ros::Buffer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\xe2\x80\x99\n'}
+[4.746047] (vision) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h:359:59:   required from \xe2\x80\x98std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {}; _Tp = tf2_ros::Buffer]\xe2\x80\x99\n'}
+[4.746179] (vision) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h:701:14:   required from \xe2\x80\x98std::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {}]\xe2\x80\x99\n'}
+[4.746309] (vision) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h:717:39:   required from \xe2\x80\x98std::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = tf2_ros::Buffer; _Args = {}]\xe2\x80\x99\n'}
+[4.746923] (vision) StderrLine: {'line': b'/home/pengchang/ws/src/vision/src/processor_node.cpp:28:57:   required from here\n'}
+[4.747055] (vision) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h:146:4: error: no matching function for call to \xe2\x80\x98tf2_ros::Buffer::Buffer()\xe2\x80\x99\n'}
+[4.747180] (vision) StderrLine: {'line': b'  146 |  { ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }\n'}
+[4.747299] (vision) StderrLine: {'line': b'      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.747442] (vision) StderrLine: {'line': b'In file included from /home/pengchang/ws/src/vision/src/processor_node.cpp:4:\n'}
+[4.747574] (vision) StderrLine: {'line': b'/opt/ros/galactic/include/tf2_ros/buffer.h:72:18: note: candidate: \xe2\x80\x98tf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)\xe2\x80\x99\n'}
+[4.747695] (vision) StderrLine: {'line': b'   72 |   TF2_ROS_PUBLIC Buffer(\n'}
+[4.747814] (vision) StderrLine: {'line': b'      |                  ^~~~~~\n'}
+[4.747946] (vision) StderrLine: {'line': b'/opt/ros/galactic/include/tf2_ros/buffer.h:72:18: note:   candidate expects 3 arguments, 0 provided\n'}
+[4.748074] (vision) StderrLine: {'line': b'make[2]: *** [CMakeFiles/vision.dir/build.make:89\xef\xbc\x9aCMakeFiles/vision.dir/src/processor_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.748196] (vision) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:138\xef\xbc\x9aCMakeFiles/vision.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.748316] (vision) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.750644] (vision) CommandEnded: {'returncode': 2}
+[4.819421] (-) TimerEvent: {}
+[4.825939] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[4.836825] (-) EventReactorShutdown: {}

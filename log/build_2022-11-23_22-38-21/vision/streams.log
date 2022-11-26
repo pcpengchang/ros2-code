@@ -1,0 +1,103 @@
+[0.024s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/vision -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/vision
+[0.126s] -- The C compiler identification is GNU 9.4.0
+[0.192s] -- The CXX compiler identification is GNU 9.4.0
+[0.203s] -- Check for working C compiler: /usr/bin/cc
+[0.296s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.299s] -- Detecting C compiler ABI info
+[0.379s] -- Detecting C compiler ABI info - done
+[0.396s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.399s] -- Check for working CXX compiler: /usr/bin/c++
+[0.496s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.497s] -- Detecting CXX compiler ABI info
+[0.599s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Detecting CXX compile features
+[0.609s] -- Detecting CXX compile features - done
+[0.612s] -- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.644s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.644s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.854s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.981s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.010s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.169s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.172s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.191s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.192s] -- Looking for pthread.h
+[1.280s] -- Looking for pthread.h - found
+[1.280s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.381s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.382s] -- Looking for pthread_create in pthreads
+[1.467s] -- Looking for pthread_create in pthreads - not found
+[1.467s] -- Looking for pthread_create in pthread
+[1.570s] -- Looking for pthread_create in pthread - found
+[1.572s] -- Found Threads: TRUE  
+[2.138s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.163s] -- Found ament_cmake_gtest: 1.1.5 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[2.170s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.170s] -- Configured cppcheck include dirs: /home/pengchang/ws/src/vision/include
+[2.170s] -- Configured cppcheck exclude dirs and/or files: 
+[2.170s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.171s] -- Configured cpplint exclude dirs and/or files: 
+[2.171s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.171s] -- Added test 'lint_cmake' to check CMake code style
+[2.172s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.172s] -- Added test 'xmllint' to check XML markup files
+[2.178s] -- Configuring done
+[2.211s] -- Generating done
+[2.212s] -- Build files have been written to: /home/pengchang/ws/build/vision
+[2.221s] Invoked command in '/home/pengchang/ws/build/vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/vision -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/vision
+[2.226s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[2.275s] [35m[1mScanning dependencies of target camera_node[0m
+[2.277s] [35m[1mScanning dependencies of target detector_node[0m
+[2.277s] [35m[1mScanning dependencies of target vision[0m
+[2.313s] [ 14%] [32mBuilding CXX object CMakeFiles/camera_node.dir/rclcpp_components/node_main_camera_node.cpp.o[0m
+[2.317s] [ 28%] [32mBuilding CXX object CMakeFiles/detector_node.dir/rclcpp_components/node_main_detector_node.cpp.o[0m
+[2.337s] [ 42%] [32mBuilding CXX object CMakeFiles/vision.dir/src/camera_node.cpp.o[0m
+[2.340s] [ 57%] [32mBuilding CXX object CMakeFiles/vision.dir/src/detector_node.cpp.o[0m
+[5.017s] [ 71%] [32m[1mLinking CXX executable camera_node[0m
+[5.164s] [ 85%] [32m[1mLinking CXX executable detector_node[0m
+[5.222s] [ 85%] Built target camera_node
+[5.342s] [ 85%] Built target detector_node
+[12.446s] [100%] [32m[1mLinking CXX shared library libvision.so[0m
+[13.130s] [100%] Built target vision
+[13.142s] Invoked command in '/home/pengchang/ws/build/vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[13.198s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/vision
+[13.209s] -- Install configuration: ""
+[13.209s] -- Installing: /home/pengchang/ws/install/vision/lib/vision/camera_node
+[13.209s] -- Set runtime path of "/home/pengchang/ws/install/vision/lib/vision/camera_node" to ""
+[13.210s] -- Installing: /home/pengchang/ws/install/vision/lib/vision/detector_node
+[13.210s] -- Set runtime path of "/home/pengchang/ws/install/vision/lib/vision/detector_node" to ""
+[13.210s] -- Installing: /home/pengchang/ws/install/vision/include
+[13.210s] -- Installing: /home/pengchang/ws/install/vision/include/vision
+[13.210s] -- Installing: /home/pengchang/ws/install/vision/share/vision/environment/library_path.sh
+[13.211s] -- Installing: /home/pengchang/ws/install/vision/share/vision/environment/library_path.dsv
+[13.211s] -- Installing: /home/pengchang/ws/install/vision/lib/libvision.so
+[13.216s] -- Set runtime path of "/home/pengchang/ws/install/vision/lib/libvision.so" to ""
+[13.216s] -- Installing: /home/pengchang/ws/install/vision/share/vision/config
+[13.216s] -- Installing: /home/pengchang/ws/install/vision/share/vision/config/camera_info.yaml
+[13.217s] -- Installing: /home/pengchang/ws/install/vision/share/vision/config/camera_params.yaml
+[13.217s] -- Installing: /home/pengchang/ws/install/vision/share/vision/config/default.yaml
+[13.217s] -- Installing: /home/pengchang/ws/install/vision/share/vision/launch
+[13.217s] -- Installing: /home/pengchang/ws/install/vision/share/vision/launch/launch.py
+[13.217s] -- Installing: /home/pengchang/ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[13.217s] -- Installing: /home/pengchang/ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[13.218s] -- Installing: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.sh
+[13.218s] -- Installing: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.dsv
+[13.218s] -- Installing: /home/pengchang/ws/install/vision/share/vision/environment/path.sh
+[13.218s] -- Installing: /home/pengchang/ws/install/vision/share/vision/environment/path.dsv
+[13.218s] -- Installing: /home/pengchang/ws/install/vision/share/vision/local_setup.bash
+[13.218s] -- Installing: /home/pengchang/ws/install/vision/share/vision/local_setup.sh
+[13.219s] -- Installing: /home/pengchang/ws/install/vision/share/vision/local_setup.zsh
+[13.219s] -- Installing: /home/pengchang/ws/install/vision/share/vision/local_setup.dsv
+[13.219s] -- Installing: /home/pengchang/ws/install/vision/share/vision/package.dsv
+[13.219s] -- Installing: /home/pengchang/ws/install/vision/share/ament_index/resource_index/packages/vision
+[13.219s] -- Installing: /home/pengchang/ws/install/vision/share/ament_index/resource_index/rclcpp_components/vision
+[13.219s] -- Installing: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.220s] -- Installing: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.220s] -- Installing: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_libraries-extras.cmake
+[13.221s] -- Installing: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig.cmake
+[13.221s] -- Installing: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig-version.cmake
+[13.221s] -- Installing: /home/pengchang/ws/install/vision/share/vision/package.xml
+[13.223s] Invoked command in '/home/pengchang/ws/build/vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/vision

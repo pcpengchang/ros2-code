@@ -1,0 +1,16 @@
+msg/Armor.idl
+msg/Armor.msg
+msg/Armors.idl
+msg/Armors.msg
+msg/DebugArmor.idl
+msg/DebugArmor.msg
+msg/DebugArmors.idl
+msg/DebugArmors.msg
+msg/DebugLight.idl
+msg/DebugLight.msg
+msg/DebugLights.idl
+msg/DebugLights.msg
+msg/SpinInfo.idl
+msg/SpinInfo.msg
+msg/Target.idl
+msg/Target.msg

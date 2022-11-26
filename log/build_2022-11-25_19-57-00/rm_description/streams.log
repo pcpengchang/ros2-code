@@ -1,0 +1,56 @@
+[0.031s] Invoking command in '/home/pengchang/ws/build/rm_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/description -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/rm_description
+[0.157s] -- The C compiler identification is GNU 9.4.0
+[0.249s] -- The CXX compiler identification is GNU 9.4.0
+[0.259s] -- Check for working C compiler: /usr/bin/cc
+[0.343s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.346s] -- Detecting C compiler ABI info
+[0.436s] -- Detecting C compiler ABI info - done
+[0.448s] -- Detecting C compile features
+[0.449s] -- Detecting C compile features - done
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.566s] -- Detecting CXX compiler ABI info
+[0.671s] -- Detecting CXX compiler ABI info - done
+[0.684s] -- Detecting CXX compile features
+[0.685s] -- Detecting CXX compile features - done
+[0.688s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.717s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.717s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.828s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.919s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.920s] -- Added test 'lint_cmake' to check CMake code style
+[0.921s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.922s] -- Added test 'xmllint' to check XML markup files
+[0.924s] -- Configuring done
+[0.926s] -- Generating done
+[0.927s] -- Build files have been written to: /home/pengchang/ws/build/rm_description
+[0.931s] Invoked command in '/home/pengchang/ws/build/rm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/description -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/rm_description
+[0.934s] Invoking command in '/home/pengchang/ws/build/rm_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/rm_description -- -j8 -l8
+[1.002s] Invoked command in '/home/pengchang/ws/build/rm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/rm_description -- -j8 -l8
+[1.040s] Invoking command in '/home/pengchang/ws/build/rm_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/rm_description
+[1.053s] -- Install configuration: ""
+[1.053s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/launch
+[1.054s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/launch/view_model.rviz
+[1.054s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/launch/view_model.launch.py
+[1.054s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/meshes
+[1.054s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/meshes/yaw_link.STL
+[1.066s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/meshes/camera_base_link.STL
+[1.066s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/meshes/pitch_link.STL
+[1.077s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/urdf
+[1.078s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/urdf/gimbal.urdf.xacro
+[1.078s] -- Installing: /home/pengchang/ws/install/rm_description/share/ament_index/resource_index/package_run_dependencies/rm_description
+[1.078s] -- Installing: /home/pengchang/ws/install/rm_description/share/ament_index/resource_index/parent_prefix_path/rm_description
+[1.093s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/environment/ament_prefix_path.sh
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/environment/ament_prefix_path.dsv
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/environment/path.sh
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/environment/path.dsv
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/local_setup.bash
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/local_setup.sh
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/local_setup.zsh
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/local_setup.dsv
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/package.dsv
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/ament_index/resource_index/packages/rm_description
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/cmake/rm_descriptionConfig.cmake
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/cmake/rm_descriptionConfig-version.cmake
+[1.094s] -- Installing: /home/pengchang/ws/install/rm_description/share/rm_description/package.xml
+[1.095s] Invoked command in '/home/pengchang/ws/build/rm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/rm_description

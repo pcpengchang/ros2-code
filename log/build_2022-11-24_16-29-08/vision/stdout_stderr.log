@@ -1,0 +1,10 @@
+[ 25%] Built target detector_node
+[ 50%] Built target camera_node
+[ 62%] [32mBuilding CXX object CMakeFiles/vision.dir/src/process_node.cpp.o[0m
+[01m[K/home/pengchang/ws/src/vision/src/process_node.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces/msg/armor.hpp: 没有那个文件或目录
+   17 | #include [01;31m[K"interfaces/msg/armor.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/vision.dir/build.make:89：CMakeFiles/vision.dir/src/process_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:136：CMakeFiles/vision.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

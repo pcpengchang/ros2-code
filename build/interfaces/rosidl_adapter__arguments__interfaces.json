@@ -1,0 +1,13 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/pengchang/ws/src/interfaces:msg/Armor.msg",
+    "/home/pengchang/ws/src/interfaces:msg/Armors.msg",
+    "/home/pengchang/ws/src/interfaces:msg/Target.msg",
+    "/home/pengchang/ws/src/interfaces:msg/DebugLight.msg",
+    "/home/pengchang/ws/src/interfaces:msg/DebugLights.msg",
+    "/home/pengchang/ws/src/interfaces:msg/DebugArmor.msg",
+    "/home/pengchang/ws/src/interfaces:msg/DebugArmors.msg",
+    "/home/pengchang/ws/src/interfaces:msg/SpinInfo.msg"
+  ]
+}

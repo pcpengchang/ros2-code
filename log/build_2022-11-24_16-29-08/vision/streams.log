@@ -1,0 +1,12 @@
+[0.017s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[0.101s] [ 25%] Built target detector_node
+[0.106s] [ 50%] Built target camera_node
+[0.109s] [ 62%] [32mBuilding CXX object CMakeFiles/vision.dir/src/process_node.cpp.o[0m
+[0.368s] [01m[K/home/pengchang/ws/src/vision/src/process_node.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Kinterfaces/msg/armor.hpp: 没有那个文件或目录
+[0.368s]    17 | #include [01;31m[K"interfaces/msg/armor.hpp"[m[K
+[0.369s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.369s] compilation terminated.
+[0.377s] make[2]: *** [CMakeFiles/vision.dir/build.make:89：CMakeFiles/vision.dir/src/process_node.cpp.o] 错误 1
+[0.378s] make[1]: *** [CMakeFiles/Makefile2:136：CMakeFiles/vision.dir/all] 错误 2
+[0.378s] make: *** [Makefile:141：all] 错误 2
+[0.382s] Invoked command in '/home/pengchang/ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8

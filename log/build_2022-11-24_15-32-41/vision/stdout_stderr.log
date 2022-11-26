@@ -1,0 +1,21 @@
+-- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+  Packages installing interfaces must include
+  '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+  package.xml
+Call Stack (most recent call first):
+  CMakeLists.txt:49 (rosidl_generate_interfaces)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/pengchang/ws/build/vision/CMakeFiles/CMakeOutput.log".
+See also "/home/pengchang/ws/build/vision/CMakeFiles/CMakeError.log".
+make: *** [Makefile:414：cmake_check_build_system] 错误 1

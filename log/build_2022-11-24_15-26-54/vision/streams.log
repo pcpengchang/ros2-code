@@ -1,0 +1,36 @@
+[0.032s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[0.071s] -- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.100s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.155s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.514s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.519s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.540s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.102s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.209s] CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[1.210s]   add_custom_target cannot create target "vision" because another target with
+[1.210s]   the same name already exists.  The existing target is a shared library
+[1.210s]   created in source directory "/home/pengchang/ws/src/vision".  See
+[1.210s]   documentation for policy CMP0002 for more details.
+[1.210s] Call Stack (most recent call first):
+[1.210s]   CMakeLists.txt:65 (rosidl_generate_interfaces)
+[1.210s] 
+[1.211s] 
+[1.211s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.236s] -- Found ament_cmake_gtest: 1.1.5 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[1.246s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.247s] -- Configured cppcheck include dirs: /home/pengchang/ws/src/vision/include
+[1.247s] -- Configured cppcheck exclude dirs and/or files: 
+[1.247s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.248s] -- Configured cpplint exclude dirs and/or files: 
+[1.248s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.248s] -- Added test 'lint_cmake' to check CMake code style
+[1.249s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.249s] -- Added test 'xmllint' to check XML markup files
+[1.259s] -- Configuring incomplete, errors occurred!
+[1.259s] See also "/home/pengchang/ws/build/vision/CMakeFiles/CMakeOutput.log".
+[1.260s] See also "/home/pengchang/ws/build/vision/CMakeFiles/CMakeError.log".
+[1.270s] make: *** [Makefile:414：cmake_check_build_system] 错误 1
+[1.274s] Invoked command in '/home/pengchang/ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8

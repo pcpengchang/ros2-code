@@ -1,0 +1,1 @@
+/home/pengchang/ws/build/interfaces/rosidl_generator_c/interfaces/msg/detail/spin_info__struct.h

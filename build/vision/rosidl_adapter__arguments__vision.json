@@ -1,0 +1,13 @@
+{
+  "package_name": "vision",
+  "non_idl_tuples": [
+    "/home/pengchang/ws/src/vision:msg/Armor.msg",
+    "/home/pengchang/ws/src/vision:msg/Armors.msg",
+    "/home/pengchang/ws/src/vision:msg/Target.msg",
+    "/home/pengchang/ws/src/vision:msg/DebugLight.msg",
+    "/home/pengchang/ws/src/vision:msg/DebugLights.msg",
+    "/home/pengchang/ws/src/vision:msg/DebugArmor.msg",
+    "/home/pengchang/ws/src/vision:msg/DebugArmors.msg",
+    "/home/pengchang/ws/src/vision:msg/SpinInfo.msg"
+  ]
+}

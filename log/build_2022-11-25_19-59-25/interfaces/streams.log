@@ -1,0 +1,225 @@
+[0.035s] Invoking command in '/home/pengchang/ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/interfaces
+[0.055s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.084s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.138s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.152s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.159s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.354s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.448s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.692s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[0.956s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.052s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.084s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.085s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.115s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.115s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.116s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.180s] -- Configuring done
+[1.247s] -- Generating done
+[1.250s] -- Build files have been written to: /home/pengchang/ws/build/interfaces
+[1.258s] Invoked command in '/home/pengchang/ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/interfaces
+[1.263s] Invoking command in '/home/pengchang/ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/interfaces -- -j8 -l8
+[1.346s] [  1%] Built target interfaces__cpp
+[1.351s] [ 12%] Built target interfaces__rosidl_generator_c
+[1.374s] [ 24%] Built target interfaces__rosidl_typesupport_cpp
+[1.389s] [ 35%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[1.391s] [ 36%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.395s] [ 48%] Built target interfaces__rosidl_typesupport_c
+[1.399s] [ 59%] Built target interfaces__rosidl_typesupport_introspection_c
+[1.525s] [ 70%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[1.563s] [ 71%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.677s] [ 81%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[1.708s] [ 81%] Built target interfaces
+[1.740s] [ 82%] Built target interfaces__py
+[1.781s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[1.854s] [ 93%] Built target interfaces__python
+[1.882s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[1.888s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[1.890s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[1.929s] [ 97%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[1.936s] [ 98%] Built target interfaces__rosidl_typesupport_c__pyext
+[1.972s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.982s] Invoked command in '/home/pengchang/ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/interfaces -- -j8 -l8
+[2.159s] Invoking command in '/home/pengchang/ws/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/interfaces
+[2.170s] -- Install configuration: ""
+[2.170s] -- Execute custom install script
+[2.171s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[2.185s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armor.h
+[2.206s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armors.h
+[2.214s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armor.h
+[2.223s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armors.h
+[2.230s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_light.h
+[2.239s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_lights.h
+[2.253s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__functions.h
+[2.267s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__struct.h
+[2.281s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__type_support.h
+[2.289s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__functions.h
+[2.298s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__struct.h
+[2.306s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__type_support.h
+[2.319s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__functions.h
+[2.331s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__struct.h
+[2.346s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__type_support.h
+[2.355s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__functions.h
+[2.365s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__struct.h
+[2.374s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__type_support.h
+[2.385s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__functions.h
+[2.395s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__struct.h
+[2.409s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__type_support.h
+[2.421s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__functions.h
+[2.435s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__struct.h
+[2.448s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__type_support.h
+[2.462s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__functions.h
+[2.477s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__struct.h
+[2.491s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__type_support.h
+[2.504s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__functions.h
+[2.519s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__struct.h
+[2.534s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__type_support.h
+[2.549s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.564s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/spin_info.h
+[2.578s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/target.h
+[2.590s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/environment/library_path.sh
+[2.597s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[2.605s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[2.620s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[2.635s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[2.650s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[2.666s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[2.680s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[2.687s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_fastrtps_c.h
+[2.700s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[2.715s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.730s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[2.746s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.759s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[2.773s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.781s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[2.795s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[2.808s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[2.823s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.836s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[2.849s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.863s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.877s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[2.886s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[2.893s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[2.908s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[2.924s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[2.933s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[2.940s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_introspection_c.h
+[2.948s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[2.962s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.971s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armor.hpp
+[2.984s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armors.hpp
+[2.999s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armor.hpp
+[3.007s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armors.hpp
+[3.020s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_light.hpp
+[3.035s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_lights.hpp
+[3.048s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__builder.hpp
+[3.056s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__struct.hpp
+[3.070s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__traits.hpp
+[3.077s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__builder.hpp
+[3.084s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__struct.hpp
+[3.092s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__traits.hpp
+[3.099s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__builder.hpp
+[3.112s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__struct.hpp
+[3.127s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__traits.hpp
+[3.136s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__builder.hpp
+[3.148s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__struct.hpp
+[3.162s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__traits.hpp
+[3.173s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__builder.hpp
+[3.181s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__struct.hpp
+[3.188s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__traits.hpp
+[3.195s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__builder.hpp
+[3.203s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__struct.hpp
+[3.210s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__traits.hpp
+[3.225s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__builder.hpp
+[3.233s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__struct.hpp
+[3.241s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__traits.hpp
+[3.257s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__builder.hpp
+[3.272s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__struct.hpp
+[3.279s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__traits.hpp
+[3.287s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/spin_info.hpp
+[3.294s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/target.hpp
+[3.302s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[3.310s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[3.321s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[3.335s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[3.348s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[3.355s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[3.363s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_introspection_cpp.hpp
+[3.370s] -- Symlinking: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[3.378s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[3.393s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[3.407s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py
+[3.422s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py
+[3.431s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armor.py
+[3.439s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armors.py
+[3.447s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armor.py
+[3.460s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armors.py
+[3.475s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_light.py
+[3.482s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_lights.py
+[3.489s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_spin_info.py
+[3.496s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_target.py
+[3.510s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.524s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.537s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.544s] -- Symlinking: /home/pengchang/ws/install/interfaces/lib/libinterfaces__python.so
+[3.557s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armor.idl
+[3.571s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armors.idl
+[3.585s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Target.idl
+[3.593s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLight.idl
+[3.600s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLights.idl
+[3.613s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmor.idl
+[3.627s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmors.idl
+[3.641s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/SpinInfo.idl
+[3.655s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armor.msg
+[3.664s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armors.msg
+[3.671s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Target.msg
+[3.683s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLight.msg
+[3.697s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLights.msg
+[3.711s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmor.msg
+[3.725s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmors.msg
+[3.739s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/msg/SpinInfo.msg
+[3.752s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[3.768s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[3.781s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[3.788s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[3.801s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/environment/path.sh
+[3.815s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/environment/path.dsv
+[3.830s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.bash
+[3.837s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.sh
+[3.850s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.zsh
+[3.864s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.dsv
+[3.872s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/package.dsv
+[3.881s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[3.893s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[3.908s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.921s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.936s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.944s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.959s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.974s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.987s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[3.994s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[4.008s] -- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/package.xml
+[4.022s] -- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[4.023s] -- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[4.023s] -- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[4.024s] -- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[4.024s] -- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[4.054s] Compiling '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...
+[4.058s] -- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[4.058s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.058s] -- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.059s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.059s] -- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[4.059s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.059s] -- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[4.060s] -- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.060s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.060s] -- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[4.060s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.067s] Invoked command in '/home/pengchang/ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/interfaces

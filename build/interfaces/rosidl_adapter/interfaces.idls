@@ -1,0 +1,8 @@
+/home/pengchang/ws/build/interfaces/rosidl_adapter/interfaces:msg/Armor.idl
+/home/pengchang/ws/build/interfaces/rosidl_adapter/interfaces:msg/Armors.idl
+/home/pengchang/ws/build/interfaces/rosidl_adapter/interfaces:msg/Target.idl
+/home/pengchang/ws/build/interfaces/rosidl_adapter/interfaces:msg/DebugLight.idl
+/home/pengchang/ws/build/interfaces/rosidl_adapter/interfaces:msg/DebugLights.idl
+/home/pengchang/ws/build/interfaces/rosidl_adapter/interfaces:msg/DebugArmor.idl
+/home/pengchang/ws/build/interfaces/rosidl_adapter/interfaces:msg/DebugArmors.idl
+/home/pengchang/ws/build/interfaces/rosidl_adapter/interfaces:msg/SpinInfo.idl

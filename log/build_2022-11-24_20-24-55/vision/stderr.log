@@ -1,0 +1,8 @@
+/home/pengchang/ws/src/vision/src/processor_node.cpp: In member function ‘void ProcessorNode::callback(interfaces::msg::Armors_<std::allocator<void> >::SharedPtr)’:
+/home/pengchang/ws/src/vision/src/processor_node.cpp:45:60: error: unused parameter ‘armors_msg’ [-Werror=unused-parameter]
+   45 |     void callback(const interfaces::msg::Armors::SharedPtr armors_msg)
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/vision.dir/build.make:89：CMakeFiles/vision.dir/src/processor_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:138：CMakeFiles/vision.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,300 @@
+[0.125s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.125s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f39e5026760>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f39e5026760>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f39e5026cd0>)
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.143s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pengchang/ws'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/description' with type 'ros.ament_cmake' and name 'description'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision' with type 'ros.ament_cmake' and name 'vision'
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/pengchang/ws/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/galactic
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pengchang/ws/build/description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pengchang/ws/install/description', 'merge_install': False, 'path': '/home/pengchang/ws/src/description', 'symlink_install': True, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pengchang/ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pengchang/ws/install/interfaces', 'merge_install': False, 'path': '/home/pengchang/ws/src/interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pengchang/ws/build/vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pengchang/ws/install/vision', 'merge_install': False, 'path': '/home/pengchang/ws/src/vision', 'symlink_install': True, 'test_result_base': None}
+[0.253s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pengchang/ws/src/interfaces' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pengchang/ws/src/interfaces'
+[0.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pengchang/ws/src/description' with build type 'ament_cmake'
+[0.269s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pengchang/ws/src/description'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pengchang/ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/interfaces -- -j8 -l8
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pengchang/ws/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/description -- -j8 -l8
+[0.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pengchang/ws/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/description -- -j8 -l8
+[0.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pengchang/ws/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/description
+[0.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(description)
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pengchang/ws/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/description
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description' for CMake module files
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description' for CMake config files
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('description', 'cmake_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/description/share/description/hook/cmake_prefix_path.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/description/share/description/hook/cmake_prefix_path.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/description/share/description/hook/cmake_prefix_path.sh'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description/bin'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description/lib/pkgconfig/description.pc'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description/lib/python3.8/site-packages'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description/bin'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/description/share/description/package.ps1'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pengchang/ws/install/description/share/description/package.dsv'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/description/share/description/package.sh'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/description/share/description/package.bash'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/description/share/description/package.zsh'
+[0.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pengchang/ws/install/description/share/colcon-core/packages/description)
+[0.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(description)
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description' for CMake module files
+[0.479s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description' for CMake config files
+[0.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('description', 'cmake_prefix_path')
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/description/share/description/hook/cmake_prefix_path.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/description/share/description/hook/cmake_prefix_path.dsv'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/description/share/description/hook/cmake_prefix_path.sh'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description/bin'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description/lib/pkgconfig/description.pc'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description/lib/python3.8/site-packages'
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/description/bin'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/description/share/description/package.ps1'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pengchang/ws/install/description/share/description/package.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/description/share/description/package.sh'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/description/share/description/package.bash'
+[0.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/description/share/description/package.zsh'
+[0.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pengchang/ws/install/description/share/colcon-core/packages/description)
+[0.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pengchang/ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/interfaces -- -j8 -l8
+[0.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pengchang/ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/interfaces
+[0.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[0.942s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces' for CMake module files
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces' for CMake config files
+[0.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pengchang/ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/interfaces
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[0.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[0.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[0.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/lib'
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[0.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[0.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/bin'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages'
+[0.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/bin'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/interfaces/share/interfaces/package.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pengchang/ws/install/interfaces/share/interfaces/package.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/interfaces/share/interfaces/package.sh'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/interfaces/share/interfaces/package.bash'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/interfaces/share/interfaces/package.zsh'
+[0.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pengchang/ws/install/interfaces/share/colcon-core/packages/interfaces)
+[1.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces' for CMake module files
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces' for CMake config files
+[1.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/lib'
+[1.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/bin'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages'
+[1.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/interfaces/bin'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/interfaces/share/interfaces/package.ps1'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pengchang/ws/install/interfaces/share/interfaces/package.dsv'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/interfaces/share/interfaces/package.sh'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/interfaces/share/interfaces/package.bash'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/interfaces/share/interfaces/package.zsh'
+[1.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pengchang/ws/install/interfaces/share/colcon-core/packages/interfaces)
+[1.139s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pengchang/ws/src/vision' with build type 'ament_cmake'
+[1.139s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pengchang/ws/src/vision'
+[1.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/description:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[1.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pengchang/ws/build/vision' returned '0': CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/description:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/description:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --install /home/pengchang/ws/build/vision
+[1.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision)
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision' for CMake module files
+[1.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pengchang/ws/build/vision' returned '0': CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/description:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --install /home/pengchang/ws/build/vision
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision' for CMake config files
+[1.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'cmake_prefix_path')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/vision/share/vision/hook/cmake_prefix_path.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/vision/share/vision/hook/cmake_prefix_path.dsv'
+[1.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/vision/share/vision/hook/cmake_prefix_path.sh'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/lib'
+[1.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'ld_library_path_lib')
+[1.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/vision/share/vision/hook/ld_library_path_lib.ps1'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/vision/share/vision/hook/ld_library_path_lib.dsv'
+[1.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/vision/share/vision/hook/ld_library_path_lib.sh'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/bin'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/lib/pkgconfig/vision.pc'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/lib/python3.8/site-packages'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/bin'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/vision/share/vision/package.ps1'
+[1.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pengchang/ws/install/vision/share/vision/package.dsv'
+[1.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/vision/share/vision/package.sh'
+[1.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/vision/share/vision/package.bash'
+[1.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/vision/share/vision/package.zsh'
+[1.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pengchang/ws/install/vision/share/colcon-core/packages/vision)
+[1.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision)
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision' for CMake module files
+[1.447s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision' for CMake config files
+[1.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'cmake_prefix_path')
+[1.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/vision/share/vision/hook/cmake_prefix_path.ps1'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/vision/share/vision/hook/cmake_prefix_path.dsv'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/vision/share/vision/hook/cmake_prefix_path.sh'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/lib'
+[1.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision', 'ld_library_path_lib')
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/vision/share/vision/hook/ld_library_path_lib.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pengchang/ws/install/vision/share/vision/hook/ld_library_path_lib.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pengchang/ws/install/vision/share/vision/hook/ld_library_path_lib.sh'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/bin'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/lib/pkgconfig/vision.pc'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/lib/python3.8/site-packages'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/pengchang/ws/install/vision/bin'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/vision/share/vision/package.ps1'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pengchang/ws/install/vision/share/vision/package.dsv'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/vision/share/vision/package.sh'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/vision/share/vision/package.bash'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/pengchang/ws/install/vision/share/vision/package.zsh'
+[1.455s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pengchang/ws/install/vision/share/colcon-core/packages/vision)
+[1.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.455s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.465s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.466s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.466s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.491s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.494s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pengchang/ws/install/local_setup.ps1'
+[1.496s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pengchang/ws/install/_local_setup_util_ps1.py'
+[1.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pengchang/ws/install/setup.ps1'
+[1.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pengchang/ws/install/local_setup.sh'
+[1.503s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pengchang/ws/install/_local_setup_util_sh.py'
+[1.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pengchang/ws/install/setup.sh'
+[1.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pengchang/ws/install/local_setup.bash'
+[1.505s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pengchang/ws/install/setup.bash'
+[1.507s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pengchang/ws/install/local_setup.zsh'
+[1.507s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pengchang/ws/install/setup.zsh'

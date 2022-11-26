@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000666] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000748] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict([('interfaces', '/home/pengchang/ws/install/interfaces')])}
+[0.000819] (vision) JobStarted: {'identifier': 'vision'}
+[0.019179] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.020725] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.022165] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pengchang/ws/build/vision', '--', '-j8', '-l8'], 'cwd': '/home/pengchang/ws/build/vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1192'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '964'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2290'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44143'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1260,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1260'), ('INVOCATION_ID', '8e7508aa262d41cb9256e5ef86009c43'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/interfaces:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/vision'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/opt/ros/galactic')]), 'shell': False}
+[0.093951] (vision) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vision\x1b[0m\n'}
+[0.099670] (-) TimerEvent: {}
+[0.103391] (vision) StdoutLine: {'line': b'[ 20%] Built target camera_node\n'}
+[0.109986] (vision) StdoutLine: {'line': b'[ 40%] Built target detector_node\n'}
+[0.112892] (vision) StdoutLine: {'line': b'[ 60%] Built target processor_node\n'}
+[0.147644] (vision) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/processor_node.cpp.o\x1b[0m\n'}
+[0.199800] (-) TimerEvent: {}
+[0.300171] (-) TimerEvent: {}
+[0.400526] (-) TimerEvent: {}
+[0.500880] (-) TimerEvent: {}
+[0.601273] (-) TimerEvent: {}
+[0.701653] (-) TimerEvent: {}
+[0.802025] (-) TimerEvent: {}
+[0.902404] (-) TimerEvent: {}
+[1.002762] (-) TimerEvent: {}
+[1.103167] (-) TimerEvent: {}
+[1.203835] (-) TimerEvent: {}
+[1.304178] (-) TimerEvent: {}
+[1.404525] (-) TimerEvent: {}
+[1.504881] (-) TimerEvent: {}
+[1.605220] (-) TimerEvent: {}
+[1.705633] (-) TimerEvent: {}
+[1.806007] (-) TimerEvent: {}
+[1.906351] (-) TimerEvent: {}
+[2.006701] (-) TimerEvent: {}
+[2.107048] (-) TimerEvent: {}
+[2.207398] (-) TimerEvent: {}
+[2.307736] (-) TimerEvent: {}
+[2.408097] (-) TimerEvent: {}
+[2.508458] (-) TimerEvent: {}
+[2.608821] (-) TimerEvent: {}
+[2.709164] (-) TimerEvent: {}
+[2.809554] (-) TimerEvent: {}
+[2.909895] (-) TimerEvent: {}
+[3.010237] (-) TimerEvent: {}
+[3.110580] (-) TimerEvent: {}
+[3.210989] (-) TimerEvent: {}
+[3.311413] (-) TimerEvent: {}
+[3.411892] (-) TimerEvent: {}
+[3.512320] (-) TimerEvent: {}
+[3.612761] (-) TimerEvent: {}
+[3.713262] (-) TimerEvent: {}
+[3.813698] (-) TimerEvent: {}
+[3.914064] (-) TimerEvent: {}
+[4.014498] (-) TimerEvent: {}
+[4.114871] (-) TimerEvent: {}
+[4.215253] (-) TimerEvent: {}
+[4.315614] (-) TimerEvent: {}
+[4.415987] (-) TimerEvent: {}
+[4.516374] (-) TimerEvent: {}
+[4.616783] (-) TimerEvent: {}
+[4.717234] (-) TimerEvent: {}
+[4.817706] (-) TimerEvent: {}
+[4.918083] (-) TimerEvent: {}
+[5.018422] (-) TimerEvent: {}
+[5.118770] (-) TimerEvent: {}
+[5.219139] (-) TimerEvent: {}
+[5.319496] (-) TimerEvent: {}
+[5.419846] (-) TimerEvent: {}
+[5.520197] (-) TimerEvent: {}
+[5.620532] (-) TimerEvent: {}
+[5.720890] (-) TimerEvent: {}
+[5.821254] (-) TimerEvent: {}
+[5.921613] (-) TimerEvent: {}
+[6.021950] (-) TimerEvent: {}
+[6.122310] (-) TimerEvent: {}
+[6.222651] (-) TimerEvent: {}
+[6.322992] (-) TimerEvent: {}
+[6.423307] (-) TimerEvent: {}
+[6.523987] (-) TimerEvent: {}
+[6.624575] (-) TimerEvent: {}
+[6.724923] (-) TimerEvent: {}
+[6.825276] (-) TimerEvent: {}
+[6.925678] (-) TimerEvent: {}
+[7.026031] (-) TimerEvent: {}
+[7.126381] (-) TimerEvent: {}
+[7.226764] (-) TimerEvent: {}
+[7.327095] (-) TimerEvent: {}
+[7.427960] (-) TimerEvent: {}
+[7.528342] (-) TimerEvent: {}
+[7.628740] (-) TimerEvent: {}
+[7.729103] (-) TimerEvent: {}
+[7.780092] (vision) StderrLine: {'line': b'/home/pengchang/ws/src/vision/src/processor_node.cpp: In member function \xe2\x80\x98void ProcessorNode::callback(interfaces::msg::Armors_<std::allocator<void> >::SharedPtr)\xe2\x80\x99:\n'}
+[7.780378] (vision) StderrLine: {'line': b'/home/pengchang/ws/src/vision/src/processor_node.cpp:45:60: error: unused parameter \xe2\x80\x98armors_msg\xe2\x80\x99 [-Werror=unused-parameter]\n'}
+[7.780501] (vision) StderrLine: {'line': b'   45 |     void callback(const interfaces::msg::Armors::SharedPtr armors_msg)\n'}
+[7.780610] (vision) StderrLine: {'line': b'      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\n'}
+[7.780720] (vision) StderrLine: {'line': b'cc1plus: all warnings being treated as errors\n'}
+[7.782558] (vision) StderrLine: {'line': b'make[2]: *** [CMakeFiles/vision.dir/build.make:89\xef\xbc\x9aCMakeFiles/vision.dir/src/processor_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.783119] (vision) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:138\xef\xbc\x9aCMakeFiles/vision.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.783386] (vision) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.787100] (vision) CommandEnded: {'returncode': 2}
+[7.829279] (-) TimerEvent: {}
+[7.863431] (vision) JobEnded: {'identifier': 'vision', 'rc': 2}
+[7.875498] (-) EventReactorShutdown: {}

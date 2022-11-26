@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/DebugArmor.msg
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module msg {
+    struct DebugArmor {
+      int32 center_x;
+
+      boolean is_armor;
+
+      float light_ratio;
+
+      float center_distance;
+
+      float angle;
+
+      @verbatim (language="comment", text=
+        " True means small armor and False means large armor")
+      boolean armor_type;
+    };
+  };
+};

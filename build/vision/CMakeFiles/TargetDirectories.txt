@@ -1,0 +1,13 @@
+/home/pengchang/ws/build/vision/CMakeFiles/install/strip.dir
+/home/pengchang/ws/build/vision/CMakeFiles/install.dir
+/home/pengchang/ws/build/vision/CMakeFiles/list_install_components.dir
+/home/pengchang/ws/build/vision/CMakeFiles/rebuild_cache.dir
+/home/pengchang/ws/build/vision/CMakeFiles/edit_cache.dir
+/home/pengchang/ws/build/vision/CMakeFiles/test.dir
+/home/pengchang/ws/build/vision/CMakeFiles/detector_node.dir
+/home/pengchang/ws/build/vision/CMakeFiles/install/local.dir
+/home/pengchang/ws/build/vision/CMakeFiles/camera_node.dir
+/home/pengchang/ws/build/vision/CMakeFiles/vision.dir
+/home/pengchang/ws/build/vision/CMakeFiles/processor_node.dir
+/home/pengchang/ws/build/vision/CMakeFiles/vision_uninstall.dir
+/home/pengchang/ws/build/vision/CMakeFiles/uninstall.dir

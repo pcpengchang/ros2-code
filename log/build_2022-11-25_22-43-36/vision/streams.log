@@ -1,0 +1,65 @@
+[0.021s] Invoking command in '/home/pengchang/ws/build/vision': AMENT_PREFIX_PATH=/home/pengchang/ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pengchang/ws/src/vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/vision
+[0.041s] -- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.130s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.207s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.457s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.475s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.016s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[1.376s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.389s] -- Found ament_cmake_gtest: 1.1.5 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[1.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.398s] -- Configured cppcheck include dirs: /home/pengchang/ws/src/vision/include
+[1.398s] -- Configured cppcheck exclude dirs and/or files: 
+[1.399s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.399s] -- Configured cpplint exclude dirs and/or files: 
+[1.399s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.399s] -- Added test 'lint_cmake' to check CMake code style
+[1.400s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.400s] -- Added test 'xmllint' to check XML markup files
+[1.405s] -- Configuring done
+[1.436s] -- Generating done
+[1.438s] -- Build files have been written to: /home/pengchang/ws/build/vision
+[1.446s] Invoked command in '/home/pengchang/ws/build/vision' returned '0': AMENT_PREFIX_PATH=/home/pengchang/ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pengchang/ws/src/vision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/vision
+[1.447s] Invoking command in '/home/pengchang/ws/build/vision': AMENT_PREFIX_PATH=/home/pengchang/ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[1.528s] [ 40%] Built target detector_node
+[1.529s] [ 40%] Built target processor_node
+[1.532s] [ 60%] Built target camera_node
+[1.555s] [100%] Built target vision
+[1.571s] Invoked command in '/home/pengchang/ws/build/vision' returned '0': AMENT_PREFIX_PATH=/home/pengchang/ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[1.620s] Invoking command in '/home/pengchang/ws/build/vision': AMENT_PREFIX_PATH=/home/pengchang/ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pengchang/ws/build/vision
+[1.631s] -- Install configuration: ""
+[1.631s] -- Execute custom install script
+[1.631s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/vision/camera_node
+[1.631s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/vision/detector_node
+[1.632s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/vision/processor_node
+[1.632s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/library_path.sh
+[1.632s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/library_path.dsv
+[1.632s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/libvision.so
+[1.633s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/config/camera_info.yaml
+[1.633s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/config/camera_params.yaml
+[1.633s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/config/default.yaml
+[1.633s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/launch/launch.py
+[1.634s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[1.634s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[1.634s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.sh
+[1.634s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.dsv
+[1.634s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/path.sh
+[1.634s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/path.dsv
+[1.635s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.bash
+[1.635s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.sh
+[1.635s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.zsh
+[1.635s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.dsv
+[1.635s] -- Symlinking: /home/pengchang/ws/install/vision/share/vision/package.dsv
+[1.648s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/packages/vision
+[1.648s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/rclcpp_components/vision
+[1.648s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.649s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.649s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_libraries-extras.cmake
+[1.649s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig.cmake
+[1.650s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig-version.cmake
+[1.650s] -- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/package.xml
+[1.658s] Invoked command in '/home/pengchang/ws/build/vision' returned '0': AMENT_PREFIX_PATH=/home/pengchang/ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pengchang/ws/build/vision

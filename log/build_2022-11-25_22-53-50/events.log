@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.000888] (description) JobQueued: {'identifier': 'description', 'dependencies': OrderedDict()}
+[0.000988] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001095] (vision) JobQueued: {'identifier': 'vision', 'dependencies': OrderedDict([('interfaces', '/home/pengchang/ws/install/interfaces')])}
+[0.001182] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.008947] (description) JobStarted: {'identifier': 'description'}
+[0.017637] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.018680] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.019538] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pengchang/ws/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/pengchang/ws/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1190'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/vision/lib:/home/pengchang/ws/install/interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '77684'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44124'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1258,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1258'), ('INVOCATION_ID', 'd0fd3b569d914e7396496d007f4ea446'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic')]), 'shell': False}
+[0.026675] (description) JobProgress: {'identifier': 'description', 'progress': 'cmake'}
+[0.028264] (description) JobProgress: {'identifier': 'description', 'progress': 'build'}
+[0.031164] (description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pengchang/ws/build/description', '--', '-j8', '-l8'], 'cwd': '/home/pengchang/ws/build/description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1190'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/vision/lib:/home/pengchang/ws/install/interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '77684'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44124'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1258,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1258'), ('INVOCATION_ID', 'd0fd3b569d914e7396496d007f4ea446'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic')]), 'shell': False}
+[0.086412] (description) CommandEnded: {'returncode': 0}
+[0.102261] (-) TimerEvent: {}
+[0.106183] (interfaces) StdoutLine: {'line': b'[  1%] Built target interfaces__cpp\n'}
+[0.110520] (description) JobProgress: {'identifier': 'description', 'progress': 'install'}
+[0.110884] (interfaces) StdoutLine: {'line': b'[ 12%] Built target interfaces__rosidl_generator_c\n'}
+[0.119333] (description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pengchang/ws/build/description'], 'cwd': '/home/pengchang/ws/build/description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1190'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/vision/lib:/home/pengchang/ws/install/interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '77684'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44124'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1258,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1258'), ('INVOCATION_ID', 'd0fd3b569d914e7396496d007f4ea446'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic')]), 'shell': False}
+[0.128402] (description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.129028] (description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.130170] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/launch/view_model.launch.py\n'}
+[0.130254] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/launch/view_model.rviz\n'}
+[0.130308] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/meshes/camera_base_link.STL\n'}
+[0.130359] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/meshes/pitch_link.STL\n'}
+[0.130412] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/meshes/yaw_link.STL\n'}
+[0.130599] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/urdf/gimbal.urdf.xacro\n'}
+[0.130666] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/ament_index/resource_index/package_run_dependencies/description\n'}
+[0.130771] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/ament_index/resource_index/parent_prefix_path/description\n'}
+[0.130888] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/environment/ament_prefix_path.sh\n'}
+[0.131068] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/environment/ament_prefix_path.dsv\n'}
+[0.131248] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/environment/path.sh\n'}
+[0.131437] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/environment/path.dsv\n'}
+[0.131589] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/local_setup.bash\n'}
+[0.131759] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/local_setup.sh\n'}
+[0.131928] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/local_setup.zsh\n'}
+[0.132097] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/local_setup.dsv\n'}
+[0.132237] (description) StdoutLine: {'line': b'-- Symlinking: /home/pengchang/ws/install/description/share/description/package.dsv\n'}
+[0.135113] (interfaces) StdoutLine: {'line': b'[ 24%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.138053] (interfaces) StdoutLine: {'line': b'[ 47%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[0.138316] (interfaces) StdoutLine: {'line': b'[ 47%] Built target interfaces__rosidl_typesupport_c\n'}
+[0.141561] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/ament_index/resource_index/packages/description\n'}
+[0.141860] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/cmake/descriptionConfig.cmake\n'}
+[0.142120] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/cmake/descriptionConfig-version.cmake\n'}
+[0.142532] (description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/package.xml\n'}
+[0.145272] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.146313] (description) CommandEnded: {'returncode': 0}
+[0.147238] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[0.174087] (interfaces) StdoutLine: {'line': b'[ 81%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.202106] (interfaces) StdoutLine: {'line': b'[ 81%] Built target interfaces\n'}
+[0.202827] (-) TimerEvent: {}
+[0.207854] (description) JobEnded: {'identifier': 'description', 'rc': 0}
+[0.229288] (interfaces) StdoutLine: {'line': b'[ 82%] Built target interfaces__py\n'}
+[0.276943] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__python\n'}
+[0.302962] (-) TimerEvent: {}
+[0.310072] (interfaces) StdoutLine: {'line': b'[ 95%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.310671] (interfaces) StdoutLine: {'line': b'[ 97%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.316926] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[0.333769] (interfaces) CommandEnded: {'returncode': 0}
+[0.403105] (-) TimerEvent: {}
+[0.503592] (-) TimerEvent: {}
+[0.508958] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[0.509414] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pengchang/ws/build/interfaces'], 'cwd': '/home/pengchang/ws/build/interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1190'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/vision/lib:/home/pengchang/ws/install/interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '77684'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44124'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1258,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1258'), ('INVOCATION_ID', 'd0fd3b569d914e7396496d007f4ea446'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic')]), 'shell': False}
+[0.525893] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.526251] (interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.526403] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[0.526532] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armor.h\n'}
+[0.526653] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armors.h\n'}
+[0.526813] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armor.h\n'}
+[0.526942] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armors.h\n'}
+[0.527222] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_light.h\n'}
+[0.527342] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_lights.h\n'}
+[0.527445] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__functions.h\n'}
+[0.527549] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__struct.h\n'}
+[0.527652] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__type_support.h\n'}
+[0.527755] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__functions.h\n'}
+[0.527856] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__struct.h\n'}
+[0.527968] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__type_support.h\n'}
+[0.528071] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__functions.h\n'}
+[0.528177] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__struct.h\n'}
+[0.528283] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__type_support.h\n'}
+[0.528389] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__functions.h\n'}
+[0.528836] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__struct.h\n'}
+[0.528991] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__type_support.h\n'}
+[0.529096] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__functions.h\n'}
+[0.529207] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__struct.h\n'}
+[0.529313] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__type_support.h\n'}
+[0.529442] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__functions.h\n'}
+[0.529554] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__struct.h\n'}
+[0.529660] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__type_support.h\n'}
+[0.529765] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__functions.h\n'}
+[0.529867] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__struct.h\n'}
+[0.529971] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__type_support.h\n'}
+[0.530088] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__functions.h\n'}
+[0.530530] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__struct.h\n'}
+[0.530687] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__type_support.h\n'}
+[0.530794] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.530900] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/spin_info.h\n'}
+[0.531004] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/target.h\n'}
+[0.531119] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[0.531222] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[0.531325] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h\n'}
+[0.531429] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h\n'}
+[0.531533] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h\n'}
+[0.531636] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h\n'}
+[0.531936] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h\n'}
+[0.532100] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h\n'}
+[0.532255] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.532364] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[0.532469] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.532573] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.532677] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.532924] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.533033] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.533134] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.533280] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.533381] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.533481] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.533644] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.533759] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.533864] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.533967] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h\n'}
+[0.534177] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h\n'}
+[0.534303] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h\n'}
+[0.534411] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h\n'}
+[0.534516] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h\n'}
+[0.534621] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h\n'}
+[0.534859] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_introspection_c.h\n'}
+[0.535089] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[0.535237] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.535365] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armor.hpp\n'}
+[0.535553] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armors.hpp\n'}
+[0.535722] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armor.hpp\n'}
+[0.535910] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armors.hpp\n'}
+[0.536078] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_light.hpp\n'}
+[0.536236] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_lights.hpp\n'}
+[0.536348] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__builder.hpp\n'}
+[0.536458] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__struct.hpp\n'}
+[0.536615] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__traits.hpp\n'}
+[0.536740] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__builder.hpp\n'}
+[0.536851] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__struct.hpp\n'}
+[0.536962] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__traits.hpp\n'}
+[0.537070] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__builder.hpp\n'}
+[0.537179] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__struct.hpp\n'}
+[0.537393] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__traits.hpp\n'}
+[0.537563] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__builder.hpp\n'}
+[0.537728] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__struct.hpp\n'}
+[0.537846] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__traits.hpp\n'}
+[0.537956] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__builder.hpp\n'}
+[0.538065] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__struct.hpp\n'}
+[0.538290] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__traits.hpp\n'}
+[0.538434] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__builder.hpp\n'}
+[0.538554] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__struct.hpp\n'}
+[0.538703] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__traits.hpp\n'}
+[0.538815] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__builder.hpp\n'}
+[0.538923] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__struct.hpp\n'}
+[0.539034] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__traits.hpp\n'}
+[0.539151] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__builder.hpp\n'}
+[0.539223] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__struct.hpp\n'}
+[0.539328] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__traits.hpp\n'}
+[0.539419] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/spin_info.hpp\n'}
+[0.539499] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/target.hpp\n'}
+[0.539557] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.539627] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.539725] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.539783] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.539843] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.539974] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.540035] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.540131] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.540193] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[0.540276] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[0.540386] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py\n'}
+[0.540801] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py\n'}
+[0.540914] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armor.py\n'}
+[0.541078] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armors.py\n'}
+[0.541174] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armor.py\n'}
+[0.541263] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armors.py\n'}
+[0.541359] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_light.py\n'}
+[0.541748] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_lights.py\n'}
+[0.541926] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_spin_info.py\n'}
+[0.541994] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_target.py\n'}
+[0.542374] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.542576] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.542687] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.543333] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/lib/libinterfaces__python.so\n'}
+[0.543524] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armor.idl\n'}
+[0.543592] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armors.idl\n'}
+[0.543696] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Target.idl\n'}
+[0.543798] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLight.idl\n'}
+[0.543854] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLights.idl\n'}
+[0.543959] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmor.idl\n'}
+[0.544130] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmors.idl\n'}
+[0.544496] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/SpinInfo.idl\n'}
+[0.544634] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armor.msg\n'}
+[0.544794] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armors.msg\n'}
+[0.544961] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Target.msg\n'}
+[0.545129] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLight.msg\n'}
+[0.545319] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLights.msg\n'}
+[0.545472] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmor.msg\n'}
+[0.545636] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmors.msg\n'}
+[0.545799] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/msg/SpinInfo.msg\n'}
+[0.545984] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[0.546202] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[0.546360] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[0.546526] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[0.546696] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[0.546858] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[0.547081] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[0.547232] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[0.547358] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[0.547524] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[0.547657] (interfaces) StdoutLine: {'line': b'-- Symlinking: /home/pengchang/ws/install/interfaces/share/interfaces/package.dsv\n'}
+[0.561491] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[0.562085] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.562386] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.562886] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.563365] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.563956] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.564424] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.564975] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.565423] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[0.565789] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[0.566519] (interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/interfaces/share/interfaces/package.xml\n'}
+[0.567012] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[0.567859] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.568996] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[0.569453] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.569706] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[0.603740] (-) TimerEvent: {}
+[0.608177] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake\n'}
+[0.608488] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.608628] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.608754] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.608860] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.609036] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.609262] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.609462] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.609613] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.609758] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.609862] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.614773] (interfaces) CommandEnded: {'returncode': 0}
+[0.705787] (-) TimerEvent: {}
+[0.790752] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[0.794303] (vision) JobStarted: {'identifier': 'vision'}
+[0.803471] (vision) JobProgress: {'identifier': 'vision', 'progress': 'cmake'}
+[0.804827] (vision) JobProgress: {'identifier': 'vision', 'progress': 'build'}
+[0.806827] (-) TimerEvent: {}
+[0.807520] (vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pengchang/ws/build/vision', '--', '-j8', '-l8'], 'cwd': '/home/pengchang/ws/build/vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1190'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '77684'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44124'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1258,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1258'), ('INVOCATION_ID', 'd0fd3b569d914e7396496d007f4ea446'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/vision'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/description:/opt/ros/galactic')]), 'shell': False}
+[0.875513] (vision) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vision\x1b[0m\n'}
+[0.881522] (vision) StdoutLine: {'line': b'[ 20%] Built target detector_node\n'}
+[0.884312] (vision) StdoutLine: {'line': b'[ 40%] Built target processor_node\n'}
+[0.886442] (vision) StdoutLine: {'line': b'[ 60%] Built target camera_node\n'}
+[0.906911] (-) TimerEvent: {}
+[0.920594] (vision) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/vision.dir/src/detector_node.cpp.o\x1b[0m\n'}
+[1.007030] (-) TimerEvent: {}
+[1.107555] (-) TimerEvent: {}
+[1.208088] (-) TimerEvent: {}
+[1.308439] (-) TimerEvent: {}
+[1.408804] (-) TimerEvent: {}
+[1.509161] (-) TimerEvent: {}
+[1.609535] (-) TimerEvent: {}
+[1.709900] (-) TimerEvent: {}
+[1.810249] (-) TimerEvent: {}
+[1.910663] (-) TimerEvent: {}
+[2.011018] (-) TimerEvent: {}
+[2.111391] (-) TimerEvent: {}
+[2.211763] (-) TimerEvent: {}
+[2.312127] (-) TimerEvent: {}
+[2.412725] (-) TimerEvent: {}
+[2.513112] (-) TimerEvent: {}
+[2.613492] (-) TimerEvent: {}
+[2.713888] (-) TimerEvent: {}
+[2.814244] (-) TimerEvent: {}
+[2.914619] (-) TimerEvent: {}
+[3.015035] (-) TimerEvent: {}
+[3.115479] (-) TimerEvent: {}
+[3.215856] (-) TimerEvent: {}
+[3.316237] (-) TimerEvent: {}
+[3.416645] (-) TimerEvent: {}
+[3.517043] (-) TimerEvent: {}
+[3.617431] (-) TimerEvent: {}
+[3.717812] (-) TimerEvent: {}
+[3.818219] (-) TimerEvent: {}
+[3.918576] (-) TimerEvent: {}
+[4.018950] (-) TimerEvent: {}
+[4.119303] (-) TimerEvent: {}
+[4.219674] (-) TimerEvent: {}
+[4.320032] (-) TimerEvent: {}
+[4.420482] (-) TimerEvent: {}
+[4.520961] (-) TimerEvent: {}
+[4.621396] (-) TimerEvent: {}
+[4.721927] (-) TimerEvent: {}
+[4.822453] (-) TimerEvent: {}
+[4.922873] (-) TimerEvent: {}
+[5.023298] (-) TimerEvent: {}
+[5.123911] (-) TimerEvent: {}
+[5.224336] (-) TimerEvent: {}
+[5.324758] (-) TimerEvent: {}
+[5.425467] (-) TimerEvent: {}
+[5.525886] (-) TimerEvent: {}
+[5.626397] (-) TimerEvent: {}
+[5.726815] (-) TimerEvent: {}
+[5.827231] (-) TimerEvent: {}
+[5.927644] (-) TimerEvent: {}
+[6.028083] (-) TimerEvent: {}
+[6.128515] (-) TimerEvent: {}
+[6.228925] (-) TimerEvent: {}
+[6.329299] (-) TimerEvent: {}
+[6.429680] (-) TimerEvent: {}
+[6.530066] (-) TimerEvent: {}
+[6.630478] (-) TimerEvent: {}
+[6.730842] (-) TimerEvent: {}
+[6.831206] (-) TimerEvent: {}
+[6.931602] (-) TimerEvent: {}
+[7.031977] (-) TimerEvent: {}
+[7.132358] (-) TimerEvent: {}
+[7.232762] (-) TimerEvent: {}
+[7.333208] (-) TimerEvent: {}
+[7.433653] (-) TimerEvent: {}
+[7.534101] (-) TimerEvent: {}
+[7.634537] (-) TimerEvent: {}
+[7.734972] (-) TimerEvent: {}
+[7.835398] (-) TimerEvent: {}
+[7.935847] (-) TimerEvent: {}
+[8.036317] (-) TimerEvent: {}
+[8.136758] (-) TimerEvent: {}
+[8.237203] (-) TimerEvent: {}
+[8.337630] (-) TimerEvent: {}
+[8.438042] (-) TimerEvent: {}
+[8.538519] (-) TimerEvent: {}
+[8.638950] (-) TimerEvent: {}
+[8.739361] (-) TimerEvent: {}
+[8.839813] (-) TimerEvent: {}
+[8.940257] (-) TimerEvent: {}
+[9.040668] (-) TimerEvent: {}
+[9.141099] (-) TimerEvent: {}
+[9.241535] (-) TimerEvent: {}
+[9.342163] (-) TimerEvent: {}
+[9.442591] (-) TimerEvent: {}
+[9.543043] (-) TimerEvent: {}
+[9.643484] (-) TimerEvent: {}
+[9.743938] (-) TimerEvent: {}
+[9.844358] (-) TimerEvent: {}
+[9.945186] (-) TimerEvent: {}
+[10.045600] (-) TimerEvent: {}
+[10.146065] (-) TimerEvent: {}
+[10.246519] (-) TimerEvent: {}
+[10.346937] (-) TimerEvent: {}
+[10.447363] (-) TimerEvent: {}
+[10.547780] (-) TimerEvent: {}
+[10.648212] (-) TimerEvent: {}
+[10.748651] (-) TimerEvent: {}
+[10.849071] (-) TimerEvent: {}
+[10.949526] (-) TimerEvent: {}
+[11.049969] (-) TimerEvent: {}
+[11.150415] (-) TimerEvent: {}
+[11.250843] (-) TimerEvent: {}
+[11.351268] (-) TimerEvent: {}
+[11.451726] (-) TimerEvent: {}
+[11.552157] (-) TimerEvent: {}
+[11.652546] (-) TimerEvent: {}
+[11.723506] (vision) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libvision.so\x1b[0m\n'}
+[11.752728] (-) TimerEvent: {}
+[11.853226] (-) TimerEvent: {}
+[11.953663] (-) TimerEvent: {}
+[12.054182] (-) TimerEvent: {}
+[12.154662] (-) TimerEvent: {}
+[12.255162] (-) TimerEvent: {}
+[12.355665] (-) TimerEvent: {}
+[12.456161] (-) TimerEvent: {}
+[12.556757] (-) TimerEvent: {}
+[12.657215] (-) TimerEvent: {}
+[12.757660] (-) TimerEvent: {}
+[12.858080] (-) TimerEvent: {}
+[12.923116] (vision) StdoutLine: {'line': b'[100%] Built target vision\n'}
+[12.941927] (vision) CommandEnded: {'returncode': 0}
+[12.958511] (-) TimerEvent: {}
+[13.001174] (vision) JobProgress: {'identifier': 'vision', 'progress': 'install'}
+[13.001822] (vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pengchang/ws/build/vision'], 'cwd': '/home/pengchang/ws/build/vision', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pengchang'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1190'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/pengchang'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.70.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '963'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '77684'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/pengchang/ws/install'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'pengchang'), ('JOURNAL_STREAM', '8:44124'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pengchang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/pengchang/.local/bin:/opt/ros/galactic/bin:/home/pengchang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hp-envy-x360-convertible-13:@/tmp/.ICE-unix/1258,unix/hp-envy-x360-convertible-13:/tmp/.ICE-unix/1258'), ('INVOCATION_ID', 'd0fd3b569d914e7396496d007f4ea446'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cad969f232.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/description:/opt/ros/galactic'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/pengchang/ws/build/vision'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/description:/opt/ros/galactic')]), 'shell': False}
+[13.018932] (vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.019588] (vision) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.019899] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/vision/camera_node\n'}
+[13.020166] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/vision/detector_node\n'}
+[13.020395] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/vision/processor_node\n'}
+[13.020803] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/library_path.sh\n'}
+[13.021015] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/library_path.dsv\n'}
+[13.021236] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/lib/libvision.so\n'}
+[13.021643] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/config/camera_info.yaml\n'}
+[13.021866] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/config/camera_params.yaml\n'}
+[13.022023] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/config/default.yaml\n'}
+[13.022315] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/launch/launch.py\n'}
+[13.022587] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/package_run_dependencies/vision\n'}
+[13.022845] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/parent_prefix_path/vision\n'}
+[13.023068] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.sh\n'}
+[13.023245] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/ament_prefix_path.dsv\n'}
+[13.023400] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/path.sh\n'}
+[13.023618] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/environment/path.dsv\n'}
+[13.023772] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.bash\n'}
+[13.024035] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.sh\n'}
+[13.024213] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.zsh\n'}
+[13.024375] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/local_setup.dsv\n'}
+[13.024519] (vision) StdoutLine: {'line': b'-- Symlinking: /home/pengchang/ws/install/vision/share/vision/package.dsv\n'}
+[13.037991] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/packages/vision\n'}
+[13.038456] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/ament_index/resource_index/rclcpp_components/vision\n'}
+[13.038847] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.039206] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.039548] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.039872] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig.cmake\n'}
+[13.040114] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/cmake/visionConfig-version.cmake\n'}
+[13.040555] (vision) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pengchang/ws/install/vision/share/vision/package.xml\n'}
+[13.049203] (vision) CommandEnded: {'returncode': 0}
+[13.059115] (-) TimerEvent: {}
+[13.120540] (vision) JobEnded: {'identifier': 'vision', 'rc': 0}
+[13.121492] (-) EventReactorShutdown: {}

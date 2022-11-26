@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/pengchang/ws/src/build/vision",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -isystem /opt/ros/galactic/include    -Wall -Werror -std=gnu++17 -o CMakeFiles/detector_node.dir/rclcpp_components/node_main_detector_node.cpp.o -c /home/pengchang/ws/src/build/vision/rclcpp_components/node_main_detector_node.cpp",
+  "file": "/home/pengchang/ws/src/build/vision/rclcpp_components/node_main_detector_node.cpp"
+},
+{
+  "directory": "/home/pengchang/ws/src/build/vision",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -isystem /opt/ros/galactic/include    -Wall -Werror -std=gnu++17 -o CMakeFiles/camera_node.dir/rclcpp_components/node_main_camera_node.cpp.o -c /home/pengchang/ws/src/build/vision/rclcpp_components/node_main_camera_node.cpp",
+  "file": "/home/pengchang/ws/src/build/vision/rclcpp_components/node_main_camera_node.cpp"
+},
+{
+  "directory": "/home/pengchang/ws/src/build/vision",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -Dvision_EXPORTS -I/home/pengchang/ws/src/vision/include -isystem /opt/ros/galactic/include -isystem /usr/local/include/opencv4  -fPIC   -Wall -Werror -std=gnu++17 -o CMakeFiles/vision.dir/src/camera_node.cpp.o -c /home/pengchang/ws/src/vision/src/camera_node.cpp",
+  "file": "/home/pengchang/ws/src/vision/src/camera_node.cpp"
+},
+{
+  "directory": "/home/pengchang/ws/src/build/vision",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -Dvision_EXPORTS -I/home/pengchang/ws/src/vision/include -isystem /opt/ros/galactic/include -isystem /usr/local/include/opencv4  -fPIC   -Wall -Werror -std=gnu++17 -o CMakeFiles/vision.dir/src/detector_node.cpp.o -c /home/pengchang/ws/src/vision/src/detector_node.cpp",
+  "file": "/home/pengchang/ws/src/vision/src/detector_node.cpp"
+}
+]

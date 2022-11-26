@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interfaces/msg/Target.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module interfaces {
+  module msg {
+    struct Target {
+      std_msgs::msg::Header header;
+
+      uint8 id;
+
+      boolean tracking;
+
+      boolean suggest_fire;
+
+      geometry_msgs::msg::Point position;
+
+      geometry_msgs::msg::Vector3 velocity;
+    };
+  };
+};

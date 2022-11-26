@@ -1,0 +1,13 @@
+[0.030s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[0.112s] [35m[1mScanning dependencies of target vision[0m
+[0.131s] [ 28%] Built target camera_node
+[0.134s] [ 57%] Built target detector_node
+[0.178s] [ 71%] [32mBuilding CXX object CMakeFiles/vision.dir/src/detector_node.cpp.o[0m
+[8.026s] /home/pengchang/ws/src/vision/src/detector_node.cpp: In member function ‘void DetectorNode::imageCallback(const ConstSharedPtr&)’:
+[8.027s] /home/pengchang/ws/src/vision/src/detector_node.cpp:145:23: error: ‘i’ was not declared in this scope
+[8.027s]   145 |         costCube.id = i;
+[8.027s]       |                       ^
+[8.028s] make[2]: *** [CMakeFiles/vision.dir/build.make:76：CMakeFiles/vision.dir/src/detector_node.cpp.o] 错误 1
+[8.029s] make[1]: *** [CMakeFiles/Makefile2:136：CMakeFiles/vision.dir/all] 错误 2
+[8.029s] make: *** [Makefile:141：all] 错误 2
+[8.033s] Invoked command in '/home/pengchang/ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8

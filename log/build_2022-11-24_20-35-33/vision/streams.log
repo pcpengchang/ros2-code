@@ -1,0 +1,33 @@
+[0.026s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[0.101s] [35m[1mScanning dependencies of target vision[0m
+[0.116s] [ 20%] Built target detector_node
+[0.118s] [ 50%] Built target camera_node
+[0.118s] [ 60%] Built target processor_node
+[0.163s] [ 70%] [32mBuilding CXX object CMakeFiles/vision.dir/src/processor_node.cpp.o[0m
+[4.743s] In file included from /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33,
+[4.743s]                  from /usr/include/c++/9/bits/allocator.h:46,
+[4.743s]                  from /usr/include/c++/9/memory:63,
+[4.743s]                  from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:154,
+[4.743s]                  from /opt/ros/galactic/include/message_filters/subscriber.h:38,
+[4.744s]                  from /home/pengchang/ws/src/vision/src/processor_node.cpp:2:
+[4.744s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘void __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = tf2_ros::Buffer; _Args = {}; _Tp = tf2_ros::Buffer]’:
+[4.744s] /usr/include/c++/9/bits/alloc_traits.h:483:4:   required from ‘static void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = tf2_ros::Buffer; _Args = {}; _Tp = tf2_ros::Buffer; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<tf2_ros::Buffer>]’
+[4.744s] /usr/include/c++/9/bits/shared_ptr_base.h:548:39:   required from ‘std::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]’
+[4.744s] /usr/include/c++/9/bits/shared_ptr_base.h:679:16:   required from ‘std::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]’
+[4.744s] /usr/include/c++/9/bits/shared_ptr_base.h:1344:71:   required from ‘std::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {}; _Tp = tf2_ros::Buffer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]’
+[4.744s] /usr/include/c++/9/bits/shared_ptr.h:359:59:   required from ‘std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {}; _Tp = tf2_ros::Buffer]’
+[4.744s] /usr/include/c++/9/bits/shared_ptr.h:701:14:   required from ‘std::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = tf2_ros::Buffer; _Alloc = std::allocator<tf2_ros::Buffer>; _Args = {}]’
+[4.745s] /usr/include/c++/9/bits/shared_ptr.h:717:39:   required from ‘std::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = tf2_ros::Buffer; _Args = {}]’
+[4.745s] /home/pengchang/ws/src/vision/src/processor_node.cpp:28:57:   required from here
+[4.745s] /usr/include/c++/9/ext/new_allocator.h:146:4: error: no matching function for call to ‘tf2_ros::Buffer::Buffer()’
+[4.745s]   146 |  { ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
+[4.746s]       |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.746s] In file included from /home/pengchang/ws/src/vision/src/processor_node.cpp:4:
+[4.746s] /opt/ros/galactic/include/tf2_ros/buffer.h:72:18: note: candidate: ‘tf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)’
+[4.746s]    72 |   TF2_ROS_PUBLIC Buffer(
+[4.746s]       |                  ^~~~~~
+[4.746s] /opt/ros/galactic/include/tf2_ros/buffer.h:72:18: note:   candidate expects 3 arguments, 0 provided
+[4.746s] make[2]: *** [CMakeFiles/vision.dir/build.make:89：CMakeFiles/vision.dir/src/processor_node.cpp.o] 错误 1
+[4.746s] make[1]: *** [CMakeFiles/Makefile2:138：CMakeFiles/vision.dir/all] 错误 2
+[4.747s] make: *** [Makefile:141：all] 错误 2
+[4.749s] Invoked command in '/home/pengchang/ws/build/vision' returned '2': CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/vision:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8

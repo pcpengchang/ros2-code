@@ -1,0 +1,3 @@
+source;share/vision/environment/ament_prefix_path.sh
+source;share/vision/environment/library_path.sh
+source;share/vision/environment/path.sh

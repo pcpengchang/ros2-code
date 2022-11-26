@@ -1,0 +1,399 @@
+[0.013s] Invoking command in '/home/pengchang/ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/interfaces
+[0.151s] -- The C compiler identification is GNU 9.4.0
+[0.210s] -- The CXX compiler identification is GNU 9.4.0
+[0.216s] -- Check for working C compiler: /usr/bin/cc
+[0.313s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.316s] -- Detecting C compiler ABI info
+[0.420s] -- Detecting C compiler ABI info - done
+[0.434s] -- Detecting C compile features
+[0.434s] -- Detecting C compile features - done
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++
+[0.544s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.546s] -- Detecting CXX compiler ABI info
+[0.651s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.669s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.696s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.697s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.783s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.788s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.793s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.947s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.984s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.082s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.103s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.191s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.395s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.629s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.747s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.749s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.785s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.785s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.785s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.785s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.807s] -- Found PythonExtra: .so  
+[1.897s] -- Configuring done
+[1.967s] -- Generating done
+[1.969s] -- Build files have been written to: /home/pengchang/ws/build/interfaces
+[1.978s] Invoked command in '/home/pengchang/ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/pengchang/ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/pengchang/ws/install/interfaces
+[1.983s] Invoking command in '/home/pengchang/ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/interfaces -- -j8 -l8
+[2.040s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.041s] [35m[1mScanning dependencies of target interfaces__cpp[0m
+[2.060s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.512s] [  2%] Built target interfaces__cpp
+[2.524s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.534s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.534s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.582s] [35m[1mScanning dependencies of target interfaces__rosidl_generator_c[0m
+[2.605s] [  6%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/debug_light__functions.c.o[0m
+[2.606s] [  8%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/target__functions.c.o[0m
+[2.607s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/debug_lights__functions.c.o[0m
+[2.607s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/armors__functions.c.o[0m
+[2.610s] [ 11%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/armor__functions.c.o[0m
+[2.658s] [ 13%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/debug_armors__functions.c.o[0m
+[2.658s] [ 13%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/spin_info__functions.c.o[0m
+[2.658s] [ 14%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/debug_armor__functions.c.o[0m
+[2.711s] [ 16%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[2.760s] [ 16%] Built target interfaces__rosidl_generator_c
+[2.773s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.777s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.890s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[2.907s] [ 19%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/armors__type_support.cpp.o[0m
+[2.910s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/armor__type_support.cpp.o[0m
+[2.914s] [ 22%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/target__type_support.cpp.o[0m
+[2.914s] [ 22%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/debug_light__type_support.cpp.o[0m
+[3.099s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.143s] [ 24%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/armor__type_support.cpp.o[0m
+[3.217s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/debug_lights__type_support.cpp.o[0m
+[3.223s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c[0m
+[3.235s] [ 26%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/debug_armor__type_support.cpp.o[0m
+[3.238s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.239s] [ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/armor__type_support.cpp.o[0m
+[3.261s] [ 28%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/armors__type_support.cpp.o[0m
+[3.266s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[3.279s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/armors__type_support.cpp.o[0m
+[3.287s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/debug_armors__type_support.cpp.o[0m
+[3.313s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/target__type_support.cpp.o[0m
+[3.346s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/debug_light__type_support.cpp.o[0m
+[3.351s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[3.379s] [ 35%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/armor__type_support.c.o[0m
+[3.391s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/debug_lights__type_support.cpp.o[0m
+[3.428s] [ 39%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/armors__type_support.c.o[0m
+[3.428s] [ 39%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/debug_armor__type_support.cpp.o[0m
+[3.442s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/target__type_support.cpp.o[0m
+[3.466s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/debug_armors__type_support.cpp.o[0m
+[3.471s] [ 42%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/target__type_support.c.o[0m
+[3.499s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/spin_info__type_support.cpp.o[0m
+[3.510s] [ 44%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/debug_light__type_support.c.o[0m
+[3.532s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/spin_info__type_support.cpp.o[0m
+[3.543s] [ 47%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[3.551s] [ 48%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[3.563s] [ 49%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/debug_armor__type_support.c.o[0m
+[3.578s] [ 50%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/debug_armors__type_support.c.o[0m
+[3.595s] [ 51%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/spin_info__type_support.c.o[0m
+[3.599s] [ 52%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[3.599s] [ 52%] Built target interfaces__rosidl_typesupport_c
+[3.610s] [ 54%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[3.621s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/debug_armor__type_support.cpp.o[0m
+[3.648s] [ 56%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/debug_armors__type_support.cpp.o[0m
+[3.658s] [ 57%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[3.703s] [ 57%] Built target interfaces__rosidl_typesupport_introspection_c
+[3.723s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/spin_info__type_support.cpp.o[0m
+[3.732s] [ 59%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[3.796s] [ 60%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[3.866s] [ 62%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[3.900s] [ 63%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[3.929s] [ 63%] Built target interfaces__rosidl_typesupport_cpp
+[3.941s] [ 64%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[3.958s] [ 65%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o[0m
+[3.976s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o[0m
+[4.077s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/spin_info__type_support.cpp.o[0m
+[4.080s] [ 68%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.212s] [ 68%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[4.513s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.645s] [ 70%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[4.664s] [ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.057s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[5.097s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[5.103s] [ 73%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[5.104s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/spin_info__type_support_c.cpp.o[0m
+[5.105s] [ 75%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[5.105s] [ 77%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[5.105s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[5.109s] [ 79%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/debug_armors__type_support_c.cpp.o[0m
+[5.116s] [ 80%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/debug_armor__type_support_c.cpp.o[0m
+[5.532s] [ 81%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.655s] [ 81%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[5.670s] [35m[1mScanning dependencies of target interfaces[0m
+[5.686s] [ 81%] Built target interfaces
+[5.698s] [35m[1mScanning dependencies of target interfaces__py[0m
+[5.716s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.601s] [ 82%] Built target interfaces__py
+[6.615s] [35m[1mScanning dependencies of target interfaces__python[0m
+[6.665s] [ 83%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_debug_light_s.c.o[0m
+[6.670s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_armors_s.c.o[0m
+[6.671s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_debug_armors_s.c.o[0m
+[6.671s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_debug_lights_s.c.o[0m
+[6.672s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_armor_s.c.o[0m
+[6.673s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_target_s.c.o[0m
+[6.674s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_debug_armor_s.c.o[0m
+[6.674s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_spin_info_s.c.o[0m
+[6.783s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[6.842s] [ 93%] Built target interfaces__python
+[6.858s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[6.859s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.860s] [35m[1mScanning dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[6.881s] [ 94%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.882s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.882s] [ 96%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.973s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.975s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.980s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.034s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[7.037s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[7.068s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.087s] Invoked command in '/home/pengchang/ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/interfaces -- -j8 -l8
+[7.345s] Invoking command in '/home/pengchang/ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/interfaces
+[7.358s] -- Install configuration: ""
+[7.359s] -- Installing: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[7.359s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces
+[7.359s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg
+[7.359s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armors.h
+[7.360s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/spin_info.h
+[7.360s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_light.h
+[7.360s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armors.h
+[7.360s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.360s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armor.h
+[7.361s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_lights.h
+[7.361s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/target.h
+[7.361s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail
+[7.362s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__functions.h
+[7.362s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__functions.c
+[7.362s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__type_support.h
+[7.363s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__functions.c
+[7.363s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__functions.c
+[7.363s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__type_support.h
+[7.363s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__functions.h
+[7.363s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__functions.h
+[7.363s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__type_support.h
+[7.363s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__struct.h
+[7.364s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__struct.h
+[7.364s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__functions.c
+[7.364s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__type_support.h
+[7.364s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__functions.h
+[7.364s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__functions.h
+[7.364s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__type_support.h
+[7.364s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__struct.h
+[7.364s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__type_support.h
+[7.365s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__struct.h
+[7.365s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__functions.c
+[7.365s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__struct.h
+[7.365s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__functions.c
+[7.365s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__functions.h
+[7.366s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__functions.c
+[7.366s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__functions.h
+[7.366s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__struct.h
+[7.366s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__type_support.h
+[7.366s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__type_support.h
+[7.366s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__functions.c
+[7.367s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__functions.h
+[7.367s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__struct.h
+[7.367s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__struct.h
+[7.367s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armor.h
+[7.367s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/environment/library_path.sh
+[7.367s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[7.367s] -- Installing: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[7.368s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[7.368s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces
+[7.368s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg
+[7.368s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail
+[7.368s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[7.368s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[7.368s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[7.369s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_fastrtps_c.h
+[7.369s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[7.369s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[7.369s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[7.369s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[7.369s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.369s] -- Installing: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[7.370s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.370s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces
+[7.370s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg
+[7.370s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail
+[7.370s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[7.370s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[7.370s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[7.370s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[7.371s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/dds_fastrtps
+[7.371s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[7.371s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[7.371s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[7.371s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_fastrtps_cpp.hpp
+[7.371s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.371s] -- Installing: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.371s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.372s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces
+[7.372s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg
+[7.372s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.372s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail
+[7.372s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__type_support.c
+[7.372s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__type_support.c
+[7.372s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__type_support.c
+[7.372s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__type_support.c
+[7.372s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[7.373s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[7.373s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__type_support.c
+[7.373s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[7.373s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_introspection_c.h
+[7.373s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[7.373s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__type_support.c
+[7.373s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[7.373s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__type_support.c
+[7.373s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[7.374s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[7.374s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__type_support.c
+[7.374s] -- Installing: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[7.374s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.374s] -- Installing: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[7.374s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[7.374s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces
+[7.374s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg
+[7.375s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armors.hpp
+[7.375s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armor.hpp
+[7.375s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/spin_info.hpp
+[7.375s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/target.hpp
+[7.375s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/armor.hpp
+[7.375s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail
+[7.375s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__traits.hpp
+[7.375s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__traits.hpp
+[7.376s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__traits.hpp
+[7.376s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__builder.hpp
+[7.376s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__builder.hpp
+[7.376s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__struct.hpp
+[7.376s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__traits.hpp
+[7.376s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__struct.hpp
+[7.376s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__struct.hpp
+[7.376s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__struct.hpp
+[7.376s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__struct.hpp
+[7.377s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__traits.hpp
+[7.377s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__builder.hpp
+[7.377s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__traits.hpp
+[7.377s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__traits.hpp
+[7.377s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__struct.hpp
+[7.377s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__builder.hpp
+[7.377s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__builder.hpp
+[7.377s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__builder.hpp
+[7.378s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__struct.hpp
+[7.378s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__traits.hpp
+[7.378s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__builder.hpp
+[7.378s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__struct.hpp
+[7.378s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__builder.hpp
+[7.378s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_armors.hpp
+[7.378s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_light.hpp
+[7.378s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/debug_lights.hpp
+[7.379s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces
+[7.379s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg
+[7.379s] -- Up-to-date: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail
+[7.379s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__type_support.cpp
+[7.379s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__type_support.cpp
+[7.379s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__type_support.cpp
+[7.379s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[7.379s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[7.379s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[7.380s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[7.380s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[7.380s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armors__type_support.cpp
+[7.380s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_armor__type_support.cpp
+[7.380s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/spin_info__rosidl_typesupport_introspection_cpp.hpp
+[7.380s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/target__type_support.cpp
+[7.380s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[7.380s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__type_support.cpp
+[7.381s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/armor__type_support.cpp
+[7.381s] -- Installing: /home/pengchang/ws/install/interfaces/include/interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[7.381s] -- Installing: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[7.381s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.381s] -- Installing: /home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[7.381s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[7.381s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[7.381s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[7.382s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py
+[7.411s] Compiling '/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/__init__.py'...
+[7.414s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg
+[7.415s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_light_s.c
+[7.415s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_spin_info_s.c
+[7.415s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armors.py
+[7.415s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armor_s.c
+[7.415s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armors.py
+[7.416s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armor.py
+[7.416s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armors_s.c
+[7.416s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armor_s.c
+[7.416s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_lights.py
+[7.416s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_spin_info.py
+[7.416s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_armors_s.c
+[7.417s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_target.py
+[7.417s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_light.py
+[7.417s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_target_s.c
+[7.417s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_debug_lights_s.c
+[7.417s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/__init__.py
+[7.417s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/msg/_armor.py
+[7.417s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[7.418s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.418s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[7.419s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.419s] -- Installing: /home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[7.420s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/python3.8/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.420s] -- Installing: /home/pengchang/ws/install/interfaces/lib/libinterfaces__python.so
+[7.420s] -- Set runtime path of "/home/pengchang/ws/install/interfaces/lib/libinterfaces__python.so" to ""
+[7.421s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armor.idl
+[7.421s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armors.idl
+[7.421s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Target.idl
+[7.421s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLight.idl
+[7.421s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLights.idl
+[7.422s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmor.idl
+[7.422s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmors.idl
+[7.422s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/SpinInfo.idl
+[7.422s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armor.msg
+[7.422s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Armors.msg
+[7.422s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/Target.msg
+[7.423s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLight.msg
+[7.423s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugLights.msg
+[7.423s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmor.msg
+[7.423s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/DebugArmors.msg
+[7.423s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/msg/SpinInfo.msg
+[7.424s] -- Installing: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[7.424s] -- Installing: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[7.424s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[7.424s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[7.425s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/environment/path.sh
+[7.425s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/environment/path.dsv
+[7.425s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.bash
+[7.425s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.sh
+[7.425s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.zsh
+[7.426s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/local_setup.dsv
+[7.426s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/package.dsv
+[7.426s] -- Installing: /home/pengchang/ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[7.426s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport.cmake
+[7.427s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.427s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.427s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.428s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[7.428s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.428s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_generator_cppExport.cmake
+[7.428s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.429s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.429s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[7.429s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.429s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[7.430s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.430s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.430s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.430s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.430s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.430s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.431s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[7.431s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[7.431s] -- Installing: /home/pengchang/ws/install/interfaces/share/interfaces/package.xml
+[7.435s] Invoked command in '/home/pengchang/ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/interfaces

@@ -1,0 +1,44 @@
+/camera_node:
+  ros__parameters:
+    camera_name: narrow_stereo
+    camera_info_url: package://rm_vision_bringup/config/camera_info.yaml
+    frame_id: "camera_optical_frame"
+    # exposure_time: 6000
+    # gain: 32.0
+
+/armor_detector:
+  ros__parameters:
+    min_lightness: 145
+
+    light:
+      max_angle: 40.0
+      max_ratio: 0.4
+      min_ratio: 0.1
+
+    armor:
+      max_angle: 35.0
+      max_center_ratio: 1.6
+      min_center_ratio: 0.4
+      min_light_ratio: 0.6
+      max_large_center_distance: 5.0
+      min_large_center_distance: 3.2
+      max_small_center_distance: 3.2
+      min_small_center_distance: 0.8
+
+    classifier:
+      similarity_threshold: 0.7
+
+/armor_processor:
+  ros__parameters:
+    target_frame: shooter_link
+
+    tracker:
+      max_match_distance: 0.2
+      tracking_threshold: 5
+      lost_threshold: 25
+
+    spin_observer:
+      allow: true
+      allow_following_range: 0.3
+      max_jump_angle: 0.2
+      max_jump_period: 0.8

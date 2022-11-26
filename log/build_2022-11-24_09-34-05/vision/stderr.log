@@ -1,0 +1,7 @@
+/home/pengchang/ws/src/vision/src/detector_node.cpp: In member function ‘void DetectorNode::imageCallback(const ConstSharedPtr&)’:
+/home/pengchang/ws/src/vision/src/detector_node.cpp:145:23: error: ‘i’ was not declared in this scope
+  145 |         costCube.id = i;
+      |                       ^
+make[2]: *** [CMakeFiles/vision.dir/build.make:76：CMakeFiles/vision.dir/src/detector_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:136：CMakeFiles/vision.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

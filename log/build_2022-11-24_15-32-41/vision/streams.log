@@ -1,0 +1,23 @@
+[0.020s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[0.052s] -- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.127s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.141s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.407s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.570s] CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.570s]   Packages installing interfaces must include
+[0.570s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.570s]   package.xml
+[0.570s] Call Stack (most recent call first):
+[0.570s]   CMakeLists.txt:49 (rosidl_generate_interfaces)
+[0.571s] 
+[0.571s] 
+[0.572s] -- Configuring incomplete, errors occurred!
+[0.572s] See also "/home/pengchang/ws/build/vision/CMakeFiles/CMakeOutput.log".
+[0.572s] See also "/home/pengchang/ws/build/vision/CMakeFiles/CMakeError.log".
+[0.581s] make: *** [Makefile:414：cmake_check_build_system] 错误 1
+[0.586s] Invoked command in '/home/pengchang/ws/build/vision' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
