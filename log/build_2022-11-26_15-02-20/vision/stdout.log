@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target vision[0m
+[ 18%] Built target gtest
+[ 25%] Built target gtest_main
+[ 50%] Built target detector_node
+[ 50%] Built target processor_node
+[ 62%] Built target camera_node
+[ 68%] [32mBuilding CXX object CMakeFiles/vision.dir/src/detector_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/vision.dir/src/camera_node.cpp.o[0m

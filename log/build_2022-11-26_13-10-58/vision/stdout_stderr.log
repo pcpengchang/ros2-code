@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target vision[0m
+[ 12%] Built target gtest_main
+[ 25%] Built target processor_node
+[ 37%] Built target detector_node
+[ 50%] Built target gtest
+[ 62%] Built target camera_node
+[ 68%] [32mBuilding CXX object CMakeFiles/vision.dir/src/detector_node.cpp.o[0m
+In file included from /opt/ros/galactic/include/rclcpp/service.hpp:34,
+                 from /opt/ros/galactic/include/rclcpp/callback_group.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+                 from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+                 from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+                 from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+                 from /opt/ros/galactic/include/message_filters/sync_policies/approximate_time.h:46,
+                 from /home/pengchang/ws/src/vision/src/detector_node.cpp:2:
+/home/pengchang/ws/src/vision/src/detector_node.cpp: In lambda function:
+/home/pengchang/ws/src/vision/src/detector_node.cpp:92:29: error: ‘node_’ was not declared in this scope; did you mean ‘mode_t’?
+   92 |                 RCLCPP_INFO(node_->get_logger(), "get camera info: %s", oss.str().c_str());
+      |                             ^~~~~
+/home/pengchang/ws/src/vision/src/detector_node.cpp:92:17: error: template argument 1 is invalid
+   92 |                 RCLCPP_INFO(node_->get_logger(), "get camera info: %s", oss.str().c_str());
+      |                 ^~~~~~~~~~~
+/home/pengchang/ws/src/vision/src/detector_node.cpp:92:17: error: template argument 1 is invalid
+   92 |                 RCLCPP_INFO(node_->get_logger(), "get camera info: %s", oss.str().c_str());
+      |                 ^~~~~~~~~~~
+/home/pengchang/ws/src/vision/src/detector_node.cpp:92:17: error: template argument 1 is invalid
+   92 |                 RCLCPP_INFO(node_->get_logger(), "get camera info: %s", oss.str().c_str());
+      |                 ^~~~~~~~~~~
+make[2]: *** [CMakeFiles/vision.dir/build.make:76：CMakeFiles/vision.dir/src/detector_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:271：CMakeFiles/vision.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,27 @@
+[0.028s] Invoking command in '/home/pengchang/ws/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/description -- -j8 -l8
+[0.121s] Invoked command in '/home/pengchang/ws/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/pengchang/ws/build/description -- -j8 -l8
+[0.163s] Invoking command in '/home/pengchang/ws/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/description
+[0.174s] -- Install configuration: ""
+[0.175s] -- Execute custom install script
+[0.176s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/launch/view_model.launch.py
+[0.176s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/launch/view_model.rviz
+[0.177s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/meshes/camera_base_link.STL
+[0.177s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/meshes/pitch_link.STL
+[0.177s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/meshes/yaw_link.STL
+[0.178s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/urdf/gimbal.urdf.xacro
+[0.178s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/ament_index/resource_index/package_run_dependencies/description
+[0.179s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/ament_index/resource_index/parent_prefix_path/description
+[0.179s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/environment/ament_prefix_path.sh
+[0.180s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/environment/ament_prefix_path.dsv
+[0.181s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/environment/path.sh
+[0.182s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/environment/path.dsv
+[0.182s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/local_setup.bash
+[0.183s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/local_setup.sh
+[0.183s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/local_setup.zsh
+[0.183s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/local_setup.dsv
+[0.183s] -- Symlinking: /home/pengchang/ws/install/description/share/description/package.dsv
+[0.198s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/ament_index/resource_index/packages/description
+[0.199s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/cmake/descriptionConfig.cmake
+[0.199s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/cmake/descriptionConfig-version.cmake
+[0.199s] -- Up-to-date symlink: /home/pengchang/ws/install/description/share/description/package.xml
+[0.203s] Invoked command in '/home/pengchang/ws/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/pengchang/ws/build/description

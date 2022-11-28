@@ -74,11 +74,26 @@ public:
 
         final_img_pub_ = image_transport::create_publisher(this, "/final_img");
 
+        // result_image_sub_ = this->create_subscription<sensor_msgs::msg::Image>(
+        //     "/image_raw", 1, std::bind(&DetectorNode::imageCallback, this, _1));
+
         cam_info_sub_ = this->create_subscription<sensor_msgs::msg::CameraInfo>(
             "/camera_info", rclcpp::SensorDataQoS(),
             [this](sensor_msgs::msg::CameraInfo::ConstSharedPtr camera_info)
             {
-                RCLCPP_INFO_STREAM(this->get_logger(), camera_info->k[2]);
+                std::ostringstream oss;
+                oss << "k:";
+                for (auto &x : camera_info->k)
+                {
+                    oss << x << " ";
+                }
+                oss << ",d:";
+                for (auto &x : camera_info->d)
+                {
+                    oss << x << " ";
+                }
+                RCLCPP_INFO(this->get_logger(), "get camera info: %s", oss.str().c_str());
+                // RCLCPP_INFO_STREAM(this->get_logger(), camera_info->k[2]);
                 cam_info_sub_.reset();
             });
 
@@ -104,7 +119,7 @@ public:
     }
 
 private:
-    void imageCallback(const sensor_msgs::msg::Image::ConstSharedPtr &img_msg)
+    void imageCallback(const sensor_msgs::msg::Image::ConstSharedPtr img_msg)
     {
         auto start_time = this->now();
         auto img = cv_bridge::toCvShare(img_msg, "bgr8")->image;
@@ -132,7 +147,7 @@ private:
         p.y = 0;
         p.z = 2;
         position_marker_.points.emplace_back(p);
-        //text_marker_.header.frame_id = "base_link";
+        // text_marker_.header.frame_id = "base_link";
         text_marker_.id = 0;
         text_marker_.pose.position = p;
         text_marker_.pose.position.y -= 0.1;
@@ -141,7 +156,7 @@ private:
 
         // 添加操作
         position_marker_.action = visualization_msgs::msg::Marker::ADD;
-        //position_marker_.header.frame_id = "base_link";
+        // position_marker_.header.frame_id = "base_link";
         position_marker_.id = 0;
         marker_array_.markers.emplace_back(position_marker_);
         marker_pub_->publish(marker_array_);
@@ -156,6 +171,7 @@ private:
     }
 
     std::shared_ptr<image_transport::Subscriber> img_sub_;
+    rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr result_image_sub_;
     image_transport::Publisher final_img_pub_;
 
     rclcpp::Subscription<sensor_msgs::msg::CameraInfo>::SharedPtr cam_info_sub_;

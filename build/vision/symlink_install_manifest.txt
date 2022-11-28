@@ -1,6 +1,7 @@
 /home/pengchang/ws/install/vision/lib/vision/camera_node
 /home/pengchang/ws/install/vision/lib/vision/detector_node
 /home/pengchang/ws/install/vision/lib/vision/processor_node
+/home/pengchang/ws/install/vision/include/vision/detector_node.hpp
 /home/pengchang/ws/install/vision/share/vision/environment/library_path.sh
 /home/pengchang/ws/install/vision/share/vision/environment/library_path.dsv
 /home/pengchang/ws/install/vision/lib/libvision.so

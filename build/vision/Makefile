@@ -68,49 +68,17 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # Special rule for the target test
 test:
@@ -123,17 +91,49 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,43 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named detector_node
+# Target rules for targets named vision_uninstall
 
 # Build rule for target.
-detector_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 detector_node
-.PHONY : detector_node
+vision_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vision_uninstall
+.PHONY : vision_uninstall
 
 # fast build rule for target.
-detector_node/fast:
-	$(MAKE) -f CMakeFiles/detector_node.dir/build.make CMakeFiles/detector_node.dir/build
-.PHONY : detector_node/fast
-
-#=============================================================================
-# Target rules for targets named camera_node
-
-# Build rule for target.
-camera_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 camera_node
-.PHONY : camera_node
-
-# fast build rule for target.
-camera_node/fast:
-	$(MAKE) -f CMakeFiles/camera_node.dir/build.make CMakeFiles/camera_node.dir/build
-.PHONY : camera_node/fast
-
-#=============================================================================
-# Target rules for targets named vision
-
-# Build rule for target.
-vision: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vision
-.PHONY : vision
-
-# fast build rule for target.
-vision/fast:
-	$(MAKE) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/build
-.PHONY : vision/fast
+vision_uninstall/fast:
+	$(MAKE) -f CMakeFiles/vision_uninstall.dir/build.make CMakeFiles/vision_uninstall.dir/build
+.PHONY : vision_uninstall/fast
 
 #=============================================================================
 # Target rules for targets named processor_node
@@ -220,17 +194,30 @@ processor_node/fast:
 .PHONY : processor_node/fast
 
 #=============================================================================
-# Target rules for targets named vision_uninstall
+# Target rules for targets named test_node
 
 # Build rule for target.
-vision_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 vision_uninstall
-.PHONY : vision_uninstall
+test_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_node
+.PHONY : test_node
 
 # fast build rule for target.
-vision_uninstall/fast:
-	$(MAKE) -f CMakeFiles/vision_uninstall.dir/build.make CMakeFiles/vision_uninstall.dir/build
-.PHONY : vision_uninstall/fast
+test_node/fast:
+	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
+.PHONY : test_node/fast
+
+#=============================================================================
+# Target rules for targets named camera_node
+
+# Build rule for target.
+camera_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 camera_node
+.PHONY : camera_node
+
+# fast build rule for target.
+camera_node/fast:
+	$(MAKE) -f CMakeFiles/camera_node.dir/build.make CMakeFiles/camera_node.dir/build
+.PHONY : camera_node/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -244,6 +231,58 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named detector_node
+
+# Build rule for target.
+detector_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detector_node
+.PHONY : detector_node
+
+# fast build rule for target.
+detector_node/fast:
+	$(MAKE) -f CMakeFiles/detector_node.dir/build.make CMakeFiles/detector_node.dir/build
+.PHONY : detector_node/fast
+
+#=============================================================================
+# Target rules for targets named vision
+
+# Build rule for target.
+vision: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vision
+.PHONY : vision
+
+# fast build rule for target.
+vision/fast:
+	$(MAKE) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/build
+.PHONY : vision/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
 
 rclcpp_components/node_main_camera_node.o: rclcpp_components/node_main_camera_node.cpp.o
 
@@ -407,6 +446,33 @@ src/processor_node.cpp.s:
 	$(MAKE) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/src/processor_node.cpp.s
 .PHONY : src/processor_node.cpp.s
 
+test/test_node.o: test/test_node.cpp.o
+
+.PHONY : test/test_node.o
+
+# target to build an object file
+test/test_node.cpp.o:
+	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/test/test_node.cpp.o
+.PHONY : test/test_node.cpp.o
+
+test/test_node.i: test/test_node.cpp.i
+
+.PHONY : test/test_node.i
+
+# target to preprocess a source file
+test/test_node.cpp.i:
+	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/test/test_node.cpp.i
+.PHONY : test/test_node.cpp.i
+
+test/test_node.s: test/test_node.cpp.s
+
+.PHONY : test/test_node.s
+
+# target to generate assembly for a file
+test/test_node.cpp.s:
+	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/test/test_node.cpp.s
+.PHONY : test/test_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -414,18 +480,21 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... detector_node"
-	@echo "... install/local"
-	@echo "... camera_node"
-	@echo "... vision"
-	@echo "... processor_node"
 	@echo "... vision_uninstall"
+	@echo "... processor_node"
+	@echo "... test_node"
+	@echo "... camera_node"
+	@echo "... install/local"
 	@echo "... uninstall"
+	@echo "... detector_node"
+	@echo "... test"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... vision"
+	@echo "... list_install_components"
+	@echo "... install"
+	@echo "... gtest_main"
+	@echo "... gtest"
 	@echo "... rclcpp_components/node_main_camera_node.o"
 	@echo "... rclcpp_components/node_main_camera_node.i"
 	@echo "... rclcpp_components/node_main_camera_node.s"
@@ -444,6 +513,9 @@ help:
 	@echo "... src/processor_node.o"
 	@echo "... src/processor_node.i"
 	@echo "... src/processor_node.s"
+	@echo "... test/test_node.o"
+	@echo "... test/test_node.i"
+	@echo "... test/test_node.s"
 .PHONY : help
 
 

@@ -1,0 +1,37 @@
+[0.019s] Invoking command in '/home/pengchang/ws/build/vision': CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/bringup:/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/description:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8
+[0.106s] [35m[1mScanning dependencies of target vision[0m
+[0.106s] [ 12%] Built target gtest_main
+[0.111s] [ 25%] Built target processor_node
+[0.111s] [ 37%] Built target detector_node
+[0.113s] [ 50%] Built target gtest
+[0.118s] [ 62%] Built target camera_node
+[0.205s] [ 68%] [32mBuilding CXX object CMakeFiles/vision.dir/src/detector_node.cpp.o[0m
+[6.320s] In file included from /opt/ros/galactic/include/rclcpp/service.hpp:34,
+[6.320s]                  from /opt/ros/galactic/include/rclcpp/callback_group.hpp:25,
+[6.320s]                  from /opt/ros/galactic/include/rclcpp/any_executable.hpp:20,
+[6.320s]                  from /opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25,
+[6.320s]                  from /opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18,
+[6.320s]                  from /opt/ros/galactic/include/rclcpp/executor_options.hpp:20,
+[6.321s]                  from /opt/ros/galactic/include/rclcpp/executor.hpp:36,
+[6.321s]                  from /opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26,
+[6.321s]                  from /opt/ros/galactic/include/rclcpp/executors.hpp:21,
+[6.321s]                  from /opt/ros/galactic/include/rclcpp/rclcpp.hpp:156,
+[6.321s]                  from /opt/ros/galactic/include/message_filters/sync_policies/approximate_time.h:46,
+[6.321s]                  from /home/pengchang/ws/src/vision/src/detector_node.cpp:2:
+[6.321s] /home/pengchang/ws/src/vision/src/detector_node.cpp: In lambda function:
+[6.321s] /home/pengchang/ws/src/vision/src/detector_node.cpp:92:29: error: ‘node_’ was not declared in this scope; did you mean ‘mode_t’?
+[6.321s]    92 |                 RCLCPP_INFO(node_->get_logger(), "get camera info: %s", oss.str().c_str());
+[6.322s]       |                             ^~~~~
+[6.322s] /home/pengchang/ws/src/vision/src/detector_node.cpp:92:17: error: template argument 1 is invalid
+[6.322s]    92 |                 RCLCPP_INFO(node_->get_logger(), "get camera info: %s", oss.str().c_str());
+[6.322s]       |                 ^~~~~~~~~~~
+[6.322s] /home/pengchang/ws/src/vision/src/detector_node.cpp:92:17: error: template argument 1 is invalid
+[6.322s]    92 |                 RCLCPP_INFO(node_->get_logger(), "get camera info: %s", oss.str().c_str());
+[6.322s]       |                 ^~~~~~~~~~~
+[6.322s] /home/pengchang/ws/src/vision/src/detector_node.cpp:92:17: error: template argument 1 is invalid
+[6.322s]    92 |                 RCLCPP_INFO(node_->get_logger(), "get camera info: %s", oss.str().c_str());
+[6.323s]       |                 ^~~~~~~~~~~
+[6.323s] make[2]: *** [CMakeFiles/vision.dir/build.make:76：CMakeFiles/vision.dir/src/detector_node.cpp.o] 错误 1
+[6.323s] make[1]: *** [CMakeFiles/Makefile2:271：CMakeFiles/vision.dir/all] 错误 2
+[6.323s] make: *** [Makefile:141：all] 错误 2
+[6.327s] Invoked command in '/home/pengchang/ws/build/vision' returned '2': CMAKE_PREFIX_PATH=/home/pengchang/ws/install/interfaces:/home/pengchang/ws/install/bringup:/home/pengchang/ws/install/vision:/home/pengchang/ws/install/rm_description:/home/pengchang/ws/install/description:/opt/ros/galactic LD_LIBRARY_PATH=/home/pengchang/ws/install/interfaces/lib:/home/pengchang/ws/install/vision/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib /usr/bin/cmake --build /home/pengchang/ws/build/vision -- -j8 -l8

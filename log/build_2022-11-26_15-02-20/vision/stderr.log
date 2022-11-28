@@ -1,0 +1,9 @@
+/home/pengchang/ws/src/vision/src/camera_node.cpp: In constructor ‘CameraNode::CameraNode(const rclcpp::NodeOptions&)’:
+/home/pengchang/ws/src/vision/src/camera_node.cpp:37:14: error: variable ‘qos’ set but not used [-Werror=unused-but-set-variable]
+   37 |         auto qos = use_sensor_data_qos ? rmw_qos_profile_sensor_data : rmw_qos_profile_default;
+      |              ^~~
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/vision.dir/build.make:63：CMakeFiles/vision.dir/src/camera_node.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:271：CMakeFiles/vision.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

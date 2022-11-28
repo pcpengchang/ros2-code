@@ -1,0 +1,7 @@
+[01m[K/home/pengchang/ws/src/vision/test/test_node.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Ksrc/vision/src/detector_node.cpp: 没有那个文件或目录
+   10 | #include [01;31m[K"src/vision/src/detector_node.cpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/test_node.dir/build.make:63：CMakeFiles/test_node.dir/test/test_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:163：CMakeFiles/test_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

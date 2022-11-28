@@ -1,13 +1,23 @@
 [
 {
   "directory": "/home/pengchang/ws/build/vision",
-  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DPROJECT_DIR=\\\"/home/pengchang/ws/src/vision\\\" -DRCUTILS_ENABLE_FAULT_INJECTION -isystem /opt/ros/galactic/include  -Wall -Wextra -Wno-deprecated   -Wall -Werror -std=gnu++2a -o CMakeFiles/detector_node.dir/rclcpp_components/node_main_detector_node.cpp.o -c /home/pengchang/ws/build/vision/rclcpp_components/node_main_detector_node.cpp",
-  "file": "/home/pengchang/ws/build/vision/rclcpp_components/node_main_detector_node.cpp"
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DPROJECT_DIR=\\\"/home/pengchang/ws/src/vision\\\" -DRCUTILS_ENABLE_FAULT_INJECTION -isystem /opt/ros/galactic/include  -Wall -Wextra -Wno-deprecated   -Wall -Werror -std=gnu++2a -o CMakeFiles/processor_node.dir/rclcpp_components/node_main_processor_node.cpp.o -c /home/pengchang/ws/build/vision/rclcpp_components/node_main_processor_node.cpp",
+  "file": "/home/pengchang/ws/build/vision/rclcpp_components/node_main_processor_node.cpp"
+},
+{
+  "directory": "/home/pengchang/ws/build/vision",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DPROJECT_DIR=\\\"/home/pengchang/ws/src/vision\\\" -DRCUTILS_ENABLE_FAULT_INJECTION -I/opt/ros/galactic/src/gtest_vendor/include -I/home/pengchang/ws/src/vision/include -isystem /opt/ros/galactic/include -isystem /usr/local/include/opencv4 -isystem /home/pengchang/ws/install/interfaces/include -isystem /usr/include/eigen3  -Wall -Wextra -Wno-deprecated   -Wall -Werror -std=gnu++2a -o CMakeFiles/test_node.dir/test/test_node.cpp.o -c /home/pengchang/ws/src/vision/test/test_node.cpp",
+  "file": "/home/pengchang/ws/src/vision/test/test_node.cpp"
 },
 {
   "directory": "/home/pengchang/ws/build/vision",
   "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DPROJECT_DIR=\\\"/home/pengchang/ws/src/vision\\\" -DRCUTILS_ENABLE_FAULT_INJECTION -isystem /opt/ros/galactic/include  -Wall -Wextra -Wno-deprecated   -Wall -Werror -std=gnu++2a -o CMakeFiles/camera_node.dir/rclcpp_components/node_main_camera_node.cpp.o -c /home/pengchang/ws/build/vision/rclcpp_components/node_main_camera_node.cpp",
   "file": "/home/pengchang/ws/build/vision/rclcpp_components/node_main_camera_node.cpp"
+},
+{
+  "directory": "/home/pengchang/ws/build/vision",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DPROJECT_DIR=\\\"/home/pengchang/ws/src/vision\\\" -DRCUTILS_ENABLE_FAULT_INJECTION -isystem /opt/ros/galactic/include  -Wall -Wextra -Wno-deprecated   -Wall -Werror -std=gnu++2a -o CMakeFiles/detector_node.dir/rclcpp_components/node_main_detector_node.cpp.o -c /home/pengchang/ws/build/vision/rclcpp_components/node_main_detector_node.cpp",
+  "file": "/home/pengchang/ws/build/vision/rclcpp_components/node_main_detector_node.cpp"
 },
 {
   "directory": "/home/pengchang/ws/build/vision",
@@ -25,8 +35,13 @@
   "file": "/home/pengchang/ws/src/vision/src/processor_node.cpp"
 },
 {
-  "directory": "/home/pengchang/ws/build/vision",
-  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DPROJECT_DIR=\\\"/home/pengchang/ws/src/vision\\\" -DRCUTILS_ENABLE_FAULT_INJECTION -isystem /opt/ros/galactic/include  -Wall -Wextra -Wno-deprecated   -Wall -Werror -std=gnu++2a -o CMakeFiles/processor_node.dir/rclcpp_components/node_main_processor_node.cpp.o -c /home/pengchang/ws/build/vision/rclcpp_components/node_main_processor_node.cpp",
-  "file": "/home/pengchang/ws/build/vision/rclcpp_components/node_main_processor_node.cpp"
+  "directory": "/home/pengchang/ws/build/vision/gtest",
+  "command": "/usr/bin/c++  -DPROJECT_DIR=\\\"/home/pengchang/ws/src/vision\\\" -I/opt/ros/galactic/src/gtest_vendor/include -I/opt/ros/galactic/src/gtest_vendor/.  -Wall -Wextra -Wno-deprecated   -Wall -Werror -std=gnu++2a -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /opt/ros/galactic/src/gtest_vendor/src/gtest_main.cc",
+  "file": "/opt/ros/galactic/src/gtest_vendor/src/gtest_main.cc"
+},
+{
+  "directory": "/home/pengchang/ws/build/vision/gtest",
+  "command": "/usr/bin/c++  -DPROJECT_DIR=\\\"/home/pengchang/ws/src/vision\\\" -I/opt/ros/galactic/src/gtest_vendor/include -I/opt/ros/galactic/src/gtest_vendor/.  -Wall -Wextra -Wno-deprecated -fPIC   -Wall -Werror -Wno-missing-field-initializers -Wno-null-dereference -std=gnu++2a -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /opt/ros/galactic/src/gtest_vendor/src/gtest-all.cc",
+  "file": "/opt/ros/galactic/src/gtest_vendor/src/gtest-all.cc"
 }
 ]

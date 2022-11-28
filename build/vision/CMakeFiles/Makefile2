@@ -53,135 +53,50 @@ CMAKE_BINARY_DIR = /home/pengchang/ws/build/vision
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/detector_node.dir/all
-all: CMakeFiles/camera_node.dir/all
-all: CMakeFiles/vision.dir/all
 all: CMakeFiles/processor_node.dir/all
+all: CMakeFiles/test_node.dir/all
+all: CMakeFiles/camera_node.dir/all
+all: CMakeFiles/detector_node.dir/all
+all: CMakeFiles/vision.dir/all
+all: gtest/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: gtest/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/detector_node.dir/clean
-clean: CMakeFiles/camera_node.dir/clean
-clean: CMakeFiles/vision.dir/clean
-clean: CMakeFiles/processor_node.dir/clean
 clean: CMakeFiles/vision_uninstall.dir/clean
+clean: CMakeFiles/processor_node.dir/clean
+clean: CMakeFiles/test_node.dir/clean
+clean: CMakeFiles/camera_node.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
+clean: CMakeFiles/detector_node.dir/clean
+clean: CMakeFiles/vision.dir/clean
+clean: gtest/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/detector_node.dir
+# Directory level rules for directory gtest
 
-# All Build rule for target.
-CMakeFiles/detector_node.dir/all:
-	$(MAKE) -f CMakeFiles/detector_node.dir/build.make CMakeFiles/detector_node.dir/depend
-	$(MAKE) -f CMakeFiles/detector_node.dir/build.make CMakeFiles/detector_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=3,4 "Built target detector_node"
-.PHONY : CMakeFiles/detector_node.dir/all
+# Recursive "all" directory target.
+gtest/all:
 
-# Build rule for subdir invocation for target.
-CMakeFiles/detector_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/detector_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
-.PHONY : CMakeFiles/detector_node.dir/rule
+.PHONY : gtest/all
 
-# Convenience name for target.
-detector_node: CMakeFiles/detector_node.dir/rule
+# Recursive "preinstall" directory target.
+gtest/preinstall:
 
-.PHONY : detector_node
+.PHONY : gtest/preinstall
 
-# clean rule for target.
-CMakeFiles/detector_node.dir/clean:
-	$(MAKE) -f CMakeFiles/detector_node.dir/build.make CMakeFiles/detector_node.dir/clean
-.PHONY : CMakeFiles/detector_node.dir/clean
+# Recursive "clean" directory target.
+gtest/clean: gtest/CMakeFiles/gtest_main.dir/clean
+gtest/clean: gtest/CMakeFiles/gtest.dir/clean
 
-#=============================================================================
-# Target rules for target CMakeFiles/camera_node.dir
-
-# All Build rule for target.
-CMakeFiles/camera_node.dir/all:
-	$(MAKE) -f CMakeFiles/camera_node.dir/build.make CMakeFiles/camera_node.dir/depend
-	$(MAKE) -f CMakeFiles/camera_node.dir/build.make CMakeFiles/camera_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=1,2 "Built target camera_node"
-.PHONY : CMakeFiles/camera_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/camera_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/camera_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
-.PHONY : CMakeFiles/camera_node.dir/rule
-
-# Convenience name for target.
-camera_node: CMakeFiles/camera_node.dir/rule
-
-.PHONY : camera_node
-
-# clean rule for target.
-CMakeFiles/camera_node.dir/clean:
-	$(MAKE) -f CMakeFiles/camera_node.dir/build.make CMakeFiles/camera_node.dir/clean
-.PHONY : CMakeFiles/camera_node.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/vision.dir
-
-# All Build rule for target.
-CMakeFiles/vision.dir/all:
-	$(MAKE) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/depend
-	$(MAKE) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=7,8,9,10 "Built target vision"
-.PHONY : CMakeFiles/vision.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/vision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vision.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
-.PHONY : CMakeFiles/vision.dir/rule
-
-# Convenience name for target.
-vision: CMakeFiles/vision.dir/rule
-
-.PHONY : vision
-
-# clean rule for target.
-CMakeFiles/vision.dir/clean:
-	$(MAKE) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/clean
-.PHONY : CMakeFiles/vision.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/processor_node.dir
-
-# All Build rule for target.
-CMakeFiles/processor_node.dir/all:
-	$(MAKE) -f CMakeFiles/processor_node.dir/build.make CMakeFiles/processor_node.dir/depend
-	$(MAKE) -f CMakeFiles/processor_node.dir/build.make CMakeFiles/processor_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=5,6 "Built target processor_node"
-.PHONY : CMakeFiles/processor_node.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/processor_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/processor_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
-.PHONY : CMakeFiles/processor_node.dir/rule
-
-# Convenience name for target.
-processor_node: CMakeFiles/processor_node.dir/rule
-
-.PHONY : processor_node
-
-# clean rule for target.
-CMakeFiles/processor_node.dir/clean:
-	$(MAKE) -f CMakeFiles/processor_node.dir/build.make CMakeFiles/processor_node.dir/clean
-.PHONY : CMakeFiles/processor_node.dir/clean
+.PHONY : gtest/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/vision_uninstall.dir
@@ -211,6 +126,89 @@ CMakeFiles/vision_uninstall.dir/clean:
 .PHONY : CMakeFiles/vision_uninstall.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/processor_node.dir
+
+# All Build rule for target.
+CMakeFiles/processor_node.dir/all:
+	$(MAKE) -f CMakeFiles/processor_node.dir/build.make CMakeFiles/processor_node.dir/depend
+	$(MAKE) -f CMakeFiles/processor_node.dir/build.make CMakeFiles/processor_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=9,10 "Built target processor_node"
+.PHONY : CMakeFiles/processor_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/processor_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/processor_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
+.PHONY : CMakeFiles/processor_node.dir/rule
+
+# Convenience name for target.
+processor_node: CMakeFiles/processor_node.dir/rule
+
+.PHONY : processor_node
+
+# clean rule for target.
+CMakeFiles/processor_node.dir/clean:
+	$(MAKE) -f CMakeFiles/processor_node.dir/build.make CMakeFiles/processor_node.dir/clean
+.PHONY : CMakeFiles/processor_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_node.dir
+
+# All Build rule for target.
+CMakeFiles/test_node.dir/all: CMakeFiles/vision.dir/all
+CMakeFiles/test_node.dir/all: gtest/CMakeFiles/gtest_main.dir/all
+CMakeFiles/test_node.dir/all: gtest/CMakeFiles/gtest.dir/all
+	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/depend
+	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=11,12 "Built target test_node"
+.PHONY : CMakeFiles/test_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 10
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
+.PHONY : CMakeFiles/test_node.dir/rule
+
+# Convenience name for target.
+test_node: CMakeFiles/test_node.dir/rule
+
+.PHONY : test_node
+
+# clean rule for target.
+CMakeFiles/test_node.dir/clean:
+	$(MAKE) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/clean
+.PHONY : CMakeFiles/test_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/camera_node.dir
+
+# All Build rule for target.
+CMakeFiles/camera_node.dir/all:
+	$(MAKE) -f CMakeFiles/camera_node.dir/build.make CMakeFiles/camera_node.dir/depend
+	$(MAKE) -f CMakeFiles/camera_node.dir/build.make CMakeFiles/camera_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=1,2 "Built target camera_node"
+.PHONY : CMakeFiles/camera_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/camera_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/camera_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
+.PHONY : CMakeFiles/camera_node.dir/rule
+
+# Convenience name for target.
+camera_node: CMakeFiles/camera_node.dir/rule
+
+.PHONY : camera_node
+
+# clean rule for target.
+CMakeFiles/camera_node.dir/clean:
+	$(MAKE) -f CMakeFiles/camera_node.dir/build.make CMakeFiles/camera_node.dir/clean
+.PHONY : CMakeFiles/camera_node.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
 
 # All Build rule for target.
@@ -236,6 +234,114 @@ uninstall: CMakeFiles/uninstall.dir/rule
 CMakeFiles/uninstall.dir/clean:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/clean
 .PHONY : CMakeFiles/uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/detector_node.dir
+
+# All Build rule for target.
+CMakeFiles/detector_node.dir/all:
+	$(MAKE) -f CMakeFiles/detector_node.dir/build.make CMakeFiles/detector_node.dir/depend
+	$(MAKE) -f CMakeFiles/detector_node.dir/build.make CMakeFiles/detector_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=3,4 "Built target detector_node"
+.PHONY : CMakeFiles/detector_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/detector_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/detector_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
+.PHONY : CMakeFiles/detector_node.dir/rule
+
+# Convenience name for target.
+detector_node: CMakeFiles/detector_node.dir/rule
+
+.PHONY : detector_node
+
+# clean rule for target.
+CMakeFiles/detector_node.dir/clean:
+	$(MAKE) -f CMakeFiles/detector_node.dir/build.make CMakeFiles/detector_node.dir/clean
+.PHONY : CMakeFiles/detector_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/vision.dir
+
+# All Build rule for target.
+CMakeFiles/vision.dir/all:
+	$(MAKE) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/depend
+	$(MAKE) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=13,14,15,16 "Built target vision"
+.PHONY : CMakeFiles/vision.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/vision.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vision.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
+.PHONY : CMakeFiles/vision.dir/rule
+
+# Convenience name for target.
+vision: CMakeFiles/vision.dir/rule
+
+.PHONY : vision
+
+# clean rule for target.
+CMakeFiles/vision.dir/clean:
+	$(MAKE) -f CMakeFiles/vision.dir/build.make CMakeFiles/vision.dir/clean
+.PHONY : CMakeFiles/vision.dir/clean
+
+#=============================================================================
+# Target rules for target gtest/CMakeFiles/gtest_main.dir
+
+# All Build rule for target.
+gtest/CMakeFiles/gtest_main.dir/all:
+	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
+	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+.PHONY : gtest/CMakeFiles/gtest_main.dir/all
+
+# Build rule for subdir invocation for target.
+gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
+.PHONY : gtest/CMakeFiles/gtest_main.dir/rule
+
+# Convenience name for target.
+gtest_main: gtest/CMakeFiles/gtest_main.dir/rule
+
+.PHONY : gtest_main
+
+# clean rule for target.
+gtest/CMakeFiles/gtest_main.dir/clean:
+	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/clean
+.PHONY : gtest/CMakeFiles/gtest_main.dir/clean
+
+#=============================================================================
+# Target rules for target gtest/CMakeFiles/gtest.dir
+
+# All Build rule for target.
+gtest/CMakeFiles/gtest.dir/all:
+	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
+	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pengchang/ws/build/vision/CMakeFiles --progress-num=5,6 "Built target gtest"
+.PHONY : gtest/CMakeFiles/gtest.dir/all
+
+# Build rule for subdir invocation for target.
+gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pengchang/ws/build/vision/CMakeFiles 0
+.PHONY : gtest/CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: gtest/CMakeFiles/gtest.dir/rule
+
+.PHONY : gtest
+
+# clean rule for target.
+gtest/CMakeFiles/gtest.dir/clean:
+	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/clean
+.PHONY : gtest/CMakeFiles/gtest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

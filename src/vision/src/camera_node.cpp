@@ -35,15 +35,15 @@ public:
         // https://github.com/ros-visualization/rqt/issues/187
         bool use_sensor_data_qos = this->declare_parameter("use_sensor_data_qos", false);
         auto qos = use_sensor_data_qos ? rmw_qos_profile_sensor_data : rmw_qos_profile_default;
-        
+
         // 两种发布方式
         camera_pub_ = image_transport::create_camera_publisher(this, "image_raw", qos);
-        // result_image_pub_ =  this ->create_publisher <sensor_msgs::msg::Image>(" /image_raw " , 10);
+        // result_image_pub_ = this->create_publisher<sensor_msgs::msg::Image>("/image_raw", 10);
 
         camera_name_ = this->declare_parameter("camera_name", "mv_camera");
         camera_info_manager_ = std::make_unique<camera_info_manager::CameraInfoManager>(this, camera_name_);
         auto camera_info_url = this->declare_parameter("camera_info_url", "package://vision/config/camera_info.yaml");
-        
+
         if (camera_info_manager_->validateURL(camera_info_url))
         {
             camera_info_manager_->loadCameraInfo(camera_info_url);
@@ -71,9 +71,9 @@ public:
         capture_thread_ =
             std::thread{[this]() -> void
                         {
-                            //ros_img_->header.frame_id = "camera_optical_frame";
-                            //ros_img_->encoding = "bgr8";
-      
+                            // ros_img_->header.frame_id = "camera_optical_frame";
+                            // ros_img_->encoding = "bgr8";
+
                             while (rclcpp::ok())
                             {
                                 // RCLCPP_INFO(this->get_logger(), "pub image");
@@ -86,8 +86,10 @@ public:
                                         ros_img_ = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", image).toImageMsg();
                                         ros_img_->header.frame_id = "camera_optical_frame";
                                         camera_info_msg_.header.stamp = ros_img_->header.stamp = this->now();
-                                        
+
                                         camera_pub_.publish(*ros_img_, camera_info_msg_);
+
+                                        // result_image_pub_->publish(*ros_img_);
                                         // cv::imshow("Sample", image);
                                     }
                                     else
@@ -142,7 +144,7 @@ private:
     sensor_msgs::msg::Image::SharedPtr ros_img_;
 
     // 两种发布方式
-    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr result_image_pub_; 
+    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr result_image_pub_;
     image_transport::CameraPublisher camera_pub_;
     OnSetParametersCallbackHandle::SharedPtr params_callback_handle_;
 
